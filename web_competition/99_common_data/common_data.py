@@ -14,7 +14,7 @@ def loader_demo (s):
     for c in s:
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(0.001)
+        time.sleep(0.0001)
 
 def delay_printloading (s):
     for c in s:
@@ -29,49 +29,90 @@ print ("")
 print ("")
 print (Style.RESET_ALL)
 print (Fore.WHITE + '  ')
-loader_demo ("""                                                            .#"
-                                                          '##"
-                           .in stereo.                 .###+"
-                                                      +++##.
-                                                    `#@####`
-                                                  ` @#########`
-                                                   @#+#########
-      ,,                                          #############;`
-      +@           `                +            ###############
-      @#`        :,`               `#          `################;
-      ##+        ;@                ##.         #######@+`   '####
-      ###        @##               ##@        @#####'        ,###
-      ##@        @##              :###       ,#####           ###:
-     `###        ###,             '##@       ##@##            ###+
-     ,###        ###@             +##+      ,####             ###@
-     :###       `###@             ;##`      ####,             ###@
-     '###       '###@              .       `###@              ###@
-     @###`      @####                      ####`              ###@
-    ####+;;;:.:#####@,                     ###@               ###'
-  #####+#######################@:         .###.              ;###,
- :################################;       @###               @###
- ################################@@       ##+##              ####
- #######################@@@@''@#+##@`     ####+#'           ;###@
- `###################           ####'    '##@.'@##@`        ###+:
-  ,'#######+`  #####             ####    @##:    `###@,    `####
-    +####' `   #####             ####`   ###         ;###@'####@
-    ,####,     ####'             ####:   ###           :#######.
-    ,####:     ####.             ####:   ###           ` #########,
-    `####;     ####              ####`   ##+            '############@:
-     ####;     ####              ####    ##+          `@#@##``+###########`
-     @###:     ###'              ###@    ###        ,######.   `############+`
-     .###,     ###               ###;    ######+##########       ++###########@
-      '++      ##@               ###     `###############         ,#############:
-               ##                 :`      +############.          ` @+###########;
-               :`                          ,#########`               `@###########;
-                                                        `              `@##########
-                                                                          +########+
-                                                                           .#######
-                                                                              .+@#'
-
-                                                                               """)
+#loader_demo ("""                                                            .#"
+#                                                         .'##"
+#                          -.in stereo.-                .###+'
+#                                                      +++##.
+#                                                     #@####`
+#                                                    @########'
+#                                                   @#+#########
+#      ,,                                          #############;
+#      +@          .                 .            ###############
+#      @#`        :::               `#          `################;
+#      ##+        ;@:               ##.         #######@+`   '####
+#      ###        @##               ##@        @#####'         ###
+#      ##@        @##              :###       ,#####           ###:
+#     `###        ###,             '##@       ##@##            ###+
+#     ,###        ###@             +##+      ,####             ###@
+#     :###       `###@             ;##`      ####,             ###@
+#     '###       '###@              .       `###@              ###@
+#     @###`      @####                      ####`              ####
+#    ####+;;;:.:#####@,                     ###@               ####
+#  #####+#######################@:         .###.               ###:
+# :################################;       @###               :###
+# ################################@@       ##+##              ####
+# #######################@@@#''@#+##@`     ####+#'           ;###@
+# `###################           ####'    '##@.'@##@`        ###+:
+#  ,'#######+`  #####             ####    @##:    `###@,    `####
+#    +####' `   #####             ####`   ###         ;###@'####@
+#    ,####,     ####'             ####:   ###           :#######.
+#    ,####:     ####.             ####:   ###           ` #########,
+#    `####;     ####              ####`   ##+            '############@:
+#     ####;     ####              ####    ##+          `@#@##``+###########`
+#     @###:     ###'              ###@    ###        ,######.   `############+`
+#     .###,     ###               ###;    ######+##########       ++###########@
+#      '++      ##@               ###     `###############         ,#############:
+#               ##                ''`      +############.          ` @+###########;
+#               '`                          :#########`               `@###########;
+#                                                                       `@##########
+#                                                                          +########:
+#                                                                           .#######
+#                                                                              .+@#'
+#
+#                                                                               """)
+loader_demo ("""MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNy:`   /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd/`      hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy-        .NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs.           ...-+hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMd/NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo`                   +MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMo /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmNMMMMMMMMMMMMMMMMMMMm+`                      sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMN-  oMMMMMMMMMMMMMMNohMMMMMMMMMMMMMMMMMMMMMMMMMMMMs :MMMMMMMMMMMMMMMMMd/                          oMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMd   `mMMMMMMMMMMMMMm` /NMMMMMMMMMMMMMMMMMMMMMMMMMy   hMMMMMMMMMMMMMMN/           `.:+syhhhy+-      sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMo    sMMMMMMMMMMMMMh   -NMMMMMMMMMMMMMMMMMMMMMMMm`   `mMMMMMMMMMMMMh.        -ohmNMMMMMMMMMMMy`    .NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMM/    +MMMMMMMMMMMMM/    /MMMMMMMMMMMMMMMMMMMMMMM/     mMMMMMMMMMMMs       `+mMMMMMMMMMMMMMMMMMs     yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMN.    :MMMMMMMMMMMMN`     dMMMMMMMMMMMMMMMMMMMMMN-    .NMMMMMMMMMMs       /mMMMMMMMMMMMMMMMMMMMd     /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMN`    .NMMMMMMMMMMMy      sMMMMMMMMMMMMMMMMMMMMMM:   `yMMMMMMMMMMy      `hMMMMMMMMMMMMMMMMMMMMMd     :MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMd     `mMMMMMMMMMMM-      +MMMMMMMMMMMMMMMMMMMMMMdoohNMMMMMMMMMMd`     -mMMMMMMMMMMMMMMMMMMMMMMs     -MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMs      yMMMMMMMMMMh       -mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN.     :NMMMMMMMMMMMMMMMMMMMMMMM-     /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMy...:+sh-      `------::::`         .:/+++oosyhdmNMMMMMMMMMMMMMMMMMMMMM+     -NMMMMMMMMMMMMMMMMMMMMMMMd      sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMM/                                                 `.:/sdMMMMMMMMMMMMMMh      dMMMMMMMMMMMMMMMMMMMMMMMM:     `mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMm.                                                      `+mMMMMMMMMMMN-      -hMMMMMMMMMMMMMMMMMMMMMMy      :MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMd`                                   ``..--:::///:.       +NMMMMMMMMs         ./ymMMMMMMMMMMMMMMMMMm`     `dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMs                   ``         .ohmNNMMMMMMMMMMMMMNs`     .dMMMMMMm`    :ys+/-.  `-+sdNMMMMMMMMMMN-      +MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMdhy/         .+shmNMMh`       dMMMMMMMMMMMMMMMMMMMMh      .NMMMMMo    `mMMMMMMNmhs+:.``-/oyhmNNm:      .NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMM-       :MMMMMMMMd       -MMMMMMMMMMMMMMMMMMMMMN.      sMMMMN.    sMMMMMMMMMMMMMMNds:`    `       `dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMM/       :MMMMMMMMo       sMMMMMMMMMMMMMMMMMMMMMm`      oMMMMd    `mMMMMMMMMMMMMMMMMMMMdo`         ./+oyhdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMs       -MMMMMMMM+      .NMMMMMMMMMMMMMMMMMMMMMy       hMMMMd    -MMMMMMMMMMMMMMMMMMMMh/`                 `.:+oydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMm`      -MMMMMMMM/      yMMMMMMMMMMMMMMMMMMMMMMo      -NMMMMN.   -MMMMMMMMMMMMMMMMmy/.      `+mmy/`               `-/shmMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMs      :MMMMMMMM+     /MMMMMMMMMMMMMMMMMMMMMMMo      yMMMMMM+    /dmmNNNNmmdhs+:`        `+mMMMMMNy/`                  `:ohNMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMy`   .hMMMMMMMMs    -NMMMMMMMMMMMMMMMMMMMMMMMy     +MMMMMMMN.                         -yNMMMMMMMMMMNy:                    `:yNMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMNhydMMMMMMMMMMd   -mMMMMMMMMMMMMMMMMMMMMMMMMMy:-:yMMMMMMMMMm:                    `:smMMMMMMMMMMMMMMMMms-                    `/mMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo/sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh/.            `-/sdNMMMMMMMMMMMMMMMMMMMMMMmy/.                   +NMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdhhhhhhddmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmy+-                -mMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNds/-`           -MMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmyo/-`     .MMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMMMMMNdyssmMMMMMMMMMM
+MMMMMMN` `````:yMMMMMMMMMMMMMo sMMMMMMMMMMMMMMMMMMMm/.```-sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy:````:yMMMMMMMMMMMMMMy`+MMMMMMMMMMMMMMMMMMN+````:dMMh `````-oNMMMMMMMMM
+MMMMMMN `MMMMm. hMMMMMNNMMMMMo oMNNMMMMMMMMNNMMMMMm``hMMNo :MMMMMNNNMMMMMMMMMNNMMMMMMMMo :mMMm: oMMMMMMMMMMMMMMNMMMMMMMMMMMMMMMMMMM+.yMMd `MMy /MMMNs .NMMMMMMMM
+MMMMMMN `MMMMm. hMMy.`.``/NMMo ---``oMMMh-`.``/mMMo +MMMMMMMMMN+``.`.sMMM` /.. -dMMMMMM. dMMMMd .MMh :MMMy /MMy +MM/...`  dMMMMMMMMMMMMMo /MMy /MMMMM: hMMMMMMMM
+MMMMMMN  ```` :yMMd -NMMs /MMo +MMN- dMm .NMMh -MMo +MMMMMMMMM+ +MMN: yMM  mMMh .MMMMMM. dMMMMm .MMh :MMMy /MMy +MMMMMd-`hMMMMMMMMMMMMm- oMMMy /MMMMM: hMMMMMMMM
+MMMMMMN `MMM: oMMMy /MMMd -MMo oMMM/ yMd :MMMN `MMs +MMMMMNNMM/ hMMMo oMM  MMMN `MMMMMM. dMMyoh .MMh :MMMy /MMy +MMMMo /NMMMMMMMMMMMMs`.dMMMMy /MMMMM: hMMMMMMMM
+MMMMMMN `MMMM: +MMd .mMN+ +MMo /NMN. dMN``dMMs :MMm``yNMm+ :MMo /NMm- hMM  MMMN `MMMMMMs -dNd-  /MMm .mMN+ /MMy +MMd.`yMMMMMMMMMMMMm- +NNNNMMy /NNNmo .NMMMMMMMM
+MMMMMMN..MMMMM/`oMMh:```-oMMMs`/-.`-yMMMd/.``.+NMMMm+.``.:yMMMMs-```:yMMM..MMMN..MMMMMMMh/.``./s-/MMy-``-/`+MMy`oMM-`.....sMMMMMMMM/``.....NMh``....:sNMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM """)
 print ("")
-print (Fore.BLUE + '                     ----- HIQ RoboCon Quiz 2D  (v. 0.9) -----  ')
+print (Fore.BLUE + '                                                            ----- HIQ RoboCon Quiz 2D  (v. 0.9) -----  ')
 print (Style.RESET_ALL)
 
 
@@ -281,6 +322,6 @@ for i in range(3):
 time.sleep(1)
 print (" Let's try your robot code now in action !")
 print ("")
-delay_printloading ("  ...STARTING ROBOT FRAMEWORK")
+delay_printloading ("  STARTING ROBOT FRAMEWORK")
 print (Style.RESET_ALL)
 print ("")
