@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20181219 08:27:57.570" generator="Robot 3.1a1 (Python 2.7.14 on win32)">
+<suite source="C:\hiq_pipo" id="s1" name="Hiq Pipo">
+<suite source="C:\hiq_pipo\web_competition" id="s1-s1" name="Web Competition">
+<suite source="C:\hiq_pipo\web_competition\01_hiq_competition" id="s1-s1-s1" name="01 Hiq Competition">
+<suite source="C:\hiq_pipo\web_competition\01_hiq_competition\quiz_questions.robot" id="s1-s1-s1-s1" name="Quiz Questions">
+<kw type="setup" name="User wants to enter competition" library="common_data">
+<kw name="Empty output directory if needed" library="common_data">
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${OUTPUT_DIR_EMPTY}' == 'FALSE'</arg>
+<arg>Remove output data</arg>
+</arguments>
+<msg timestamp="20181219 08:27:57.770" level="FAIL">Variable '${OUTPUT_DIR_EMPTY}' not found.</msg>
+<status status="FAIL" endtime="20181219 08:27:57.770" starttime="20181219 08:27:57.769"></status>
+</kw>
+<status status="FAIL" endtime="20181219 08:27:57.770" starttime="20181219 08:27:57.769"></status>
+</kw>
+<status status="FAIL" endtime="20181219 08:27:57.770" starttime="20181219 08:27:57.768"></status>
+</kw>
+<test id="s1-s1-s1-s1-t1" name="Task 1 - Enter HIQ homepage">
+<status status="FAIL" endtime="20181219 08:27:57.771" critical="yes" starttime="20181219 08:27:57.770">Parent suite setup failed:
+Variable '${OUTPUT_DIR_EMPTY}' not found.</status>
+</test>
+<test id="s1-s1-s1-s1-t2" name="Task 2 - Open careers">
+<status status="FAIL" endtime="20181219 08:27:57.772" critical="yes" starttime="20181219 08:27:57.771">Parent suite setup failed:
+Variable '${OUTPUT_DIR_EMPTY}' not found.</status>
+</test>
+<test id="s1-s1-s1-s1-t3" name="Task 3 - Select a career">
+<status status="FAIL" endtime="20181219 08:27:57.773" critical="yes" starttime="20181219 08:27:57.772">Parent suite setup failed:
+Variable '${OUTPUT_DIR_EMPTY}' not found.</status>
+</test>
+<test id="s1-s1-s1-s1-t4" name="Task 4 - View and scroll down career information">
+<status status="FAIL" endtime="20181219 08:27:57.775" critical="yes" starttime="20181219 08:27:57.774">Parent suite setup failed:
+Variable '${OUTPUT_DIR_EMPTY}' not found.</status>
+</test>
+<kw type="teardown" name="Close browser" library="common_data">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20181219 08:27:57.777" starttime="20181219 08:27:57.777"></status>
+</kw>
+<kw name="Run Keyword If All Tests Passed" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if all tests passed.</doc>
+<arguments>
+<arg>Conguratulations</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.777" starttime="20181219 08:27:57.777"></status>
+</kw>
+<kw name="Run Keyword If Any Tests Failed" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if one or more tests failed.</doc>
+<arguments>
+<arg>Better luck next time</arg>
+</arguments>
+<kw name="Better luck next time" library="common_data">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>..</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.778" starttime="20181219 08:27:57.778"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>..</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.779" starttime="20181219 08:27:57.778"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>---------------Some fails occurred :(----------------</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.779" starttime="20181219 08:27:57.779"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>---------------BETTER LUCK NEXT TIME!----------------</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.779" starttime="20181219 08:27:57.779"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>..</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.780" starttime="20181219 08:27:57.780"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>..</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.781" starttime="20181219 08:27:57.780"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>............It took ${TOTAL} seconds for you to answer all four questions. :)</arg>
+</arguments>
+<msg timestamp="20181219 08:27:57.782" level="FAIL">Variable '${TOTAL}' not found.</msg>
+<status status="FAIL" endtime="20181219 08:27:57.782" starttime="20181219 08:27:57.781"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>..</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.782" starttime="20181219 08:27:57.782"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>......This game was made using Robot Framework and Python</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.783" starttime="20181219 08:27:57.782"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>..</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.783" starttime="20181219 08:27:57.783"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>..</arg>
+</arguments>
+<status status="PASS" endtime="20181219 08:27:57.783" starttime="20181219 08:27:57.783"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20181219 08:28:00.784" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 08:28:00.784" starttime="20181219 08:27:57.783"></status>
+</kw>
+<status status="FAIL" endtime="20181219 08:28:00.784" starttime="20181219 08:27:57.778"></status>
+</kw>
+<status status="FAIL" endtime="20181219 08:28:00.784" starttime="20181219 08:27:57.778"></status>
+</kw>
+<status status="FAIL" endtime="20181219 08:28:00.785" starttime="20181219 08:27:57.776">Variable '${TOTAL}' not found.</status>
+</kw>
+<status status="FAIL" endtime="20181219 08:28:00.785" starttime="20181219 08:27:57.603">Suite setup failed:
+Variable '${OUTPUT_DIR_EMPTY}' not found.
+
+Also suite teardown failed:
+Variable '${TOTAL}' not found.</status>
+</suite>
+<status status="FAIL" endtime="20181219 08:28:00.788" starttime="20181219 08:27:57.601"></status>
+</suite>
+<status status="FAIL" endtime="20181219 08:28:00.790" starttime="20181219 08:27:57.600"></status>
+</suite>
+<status status="FAIL" endtime="20181219 08:28:00.792" starttime="20181219 08:27:57.577"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="4" pass="0">Critical Tests</stat>
+<stat fail="4" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="4" id="s1" name="Hiq Pipo" pass="0">Hiq Pipo</stat>
+<stat fail="4" id="s1-s1" name="Web Competition" pass="0">Hiq Pipo.Web Competition</stat>
+<stat fail="4" id="s1-s1-s1" name="01 Hiq Competition" pass="0">Hiq Pipo.Web Competition.01 Hiq Competition</stat>
+<stat fail="4" id="s1-s1-s1-s1" name="Quiz Questions" pass="0">Hiq Pipo.Web Competition.01 Hiq Competition.Quiz Questions</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181219 08:27:57.572" level="ERROR">Variable file 'hiq_pipoweb_competition99_common_datacommon_data.py' does not exist.</msg>
+</errors>
+</robot>
