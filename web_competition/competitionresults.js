@@ -1,1 +1,1 @@
-var hscore = "__'keltsu12345''12.08'__'keltsu345764''9.55'__'keltsu3498753''7.04'__'keltsu''10.71'__'keltsu132345775''9.4'__'KL-Z''8.4'__'KL-Z''5.83'__'keltsu234234''10.01'__'666_hell_death''10.26'__'me_too''6.21'__'kaffea''8.1'
+var hscore = "__'keltsu12345''12.08'__'keltsu345764''9.55'__'keltsu3498753''7.04'__'keltsu''10.71'__'keltsu132345775''9.4'__'KL-Z''8.4'__'KL-Z''5.83'__'keltsu234234''10.01'__'666_hell_death''10.26'__'me_too''6.21'__'kaffea''8.1'__'Rauli''246.38'__'anna''122.63'__'keltsu''6.95'
