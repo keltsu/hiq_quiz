@@ -2,11 +2,9 @@ import time
 import timeit
 import sys
 import random
-#from colorama import init
-#init()
-#from termcolor import colored
-import os
-
+from colorama import init
+init()
+from colorama import Fore, Back, Style
 ##os.chmod(hiq_pipo\temp\reports\, 777)
 
 ##os.chmod("\hiq_pipo\competitionresults.txt", 777)
@@ -20,8 +18,11 @@ def loader_demo (s):
         sys.stdout.flush()
         time.sleep(0.001)
 
-#time.sleep(3)
-loader_demo("""                                                            .#"
+#print(Fore.RED + 'some red text')
+#print(Back.GREEN + 'and with a green background')
+#print(Style.DIM + 'and in dim text')
+
+loader_demo ("""                                                            .#"
                                                           '##"
                            .in stereo.                 .###+"
                                                       +++##.
@@ -39,9 +40,9 @@ loader_demo("""                                                            .#"
      :###       `###@             ;##`      ####,             ###@
      '###       '###@              .       `###@              ###@
      @###`      @####                      ####`              ###@
-`';  ####+;;;:.:#####@,                    ###@               ###'
-#####+#######################@:           .###.              ;###,
-:################################;        @###               @###
+    ####+;;;:.:#####@,                     ###@               ###'
+  #####+#######################@:         .###.              ;###,
+ :################################;       @###               @###
  ################################@@       ##+##              ####
  #######################@@@@''@#+##@`     ####+#'           ;###@
  `###################           ####'    '##@.'@##@`        ###+:
@@ -203,7 +204,7 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.1)
 
-def delay_printfast (s):
+def delay_printfast_rf_start (s):
     for c in s:
         sys.stdout.write(c)
         sys.stdout.flush()
@@ -218,29 +219,40 @@ def delete_last_line():
 
 print ("")
 
-print("LOADING..........")
+#print("LOADING..........")
+print (Fore.RED + 'LOADING........')
+print (Style.RESET_ALL)
 
 for i in range(3):
     print ""
 time.sleep(1)
 print ("")
-#print (colored('Hello, World!', 'green', 'on_red'))
-print (" GAME INFO:")
+#print (" GAME INFO:")
+print (Fore.WHITE + ' GAME INFO')
+print (Style.RESET_ALL)
 print (" This is a program which gives you options to fill out missing ")
 print (" commands from a robot test with the options you choose.")
 print (" Then robot tries to run the tests using given values. ")
 print ("")
 time.sleep(1)
-print (" You will be asked four questions. Try to be as fast as you can! ")
-
+print (" You will be asked four questions. ")
+print (Fore.WHITE + ' Try to be as fast as you can!')
+print (Style.RESET_ALL)
 time.sleep(1)
 for i in range(3):
     print ""
 PLAYER = raw_input(' Enter your name: ')
 print ""
-raw_input(" Pressing [ENTER] will start the timer. Ready?... ")
+raw_input(" Pressing [ENTER] will start the timer. ")
 print ""
-print ("Timer starts - NOW!")
+print (Fore.WHITE + ' ------Ready?------')
+print (Style.RESET_ALL)
+print ""
+print ""
+#print ("Timer starts - NOW!")
+print (Fore.WHITE + ' Timer starts NOW! ')
+print ""
+print (Style.RESET_ALL)
 
 start = timeit.default_timer()
 
@@ -266,7 +278,8 @@ print (".")
 for i in range(3):
     print ("")
 time.sleep(1)
-print ("Let's now try your robot code in action !")
+print (Fore.WHITE + ' Let us now try your robot code in action !')
+print (Style.RESET_ALL)
 print ("")
-delay_printfast("STARTING ROBOT FRAMEWORK..")
+print ("  ...STARTING ROBOT FRAMEWORK")
 print ("")
