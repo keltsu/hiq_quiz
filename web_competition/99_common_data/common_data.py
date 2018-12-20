@@ -21,9 +21,12 @@ def delay_printloading (s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(0.1)
-        print (Fore.GREEN),
+        print (Fore.RED),
 
 delay_printloading ("""  LOADING... """)
+
+print ("")
+print ("")
 print (Style.RESET_ALL)
 print (Fore.WHITE + '  ')
 loader_demo ("""                                                            .#"

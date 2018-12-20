@@ -86,7 +86,7 @@ Conguratulations
     Log to console  ..
     Log to console  ............You answered all questions correctly in ${TOTAL} seconds !!
     Log to console  ..
-    Log to console  ............This quiz was coded using Robot Framework and Python (C) K 2019
+    Log to console  ............This quiz was coded using Robot Framework and Python (C) HiQ/Keltsu 2019
     Log to console  ..
     Log to console  ..
     Sleep  3
@@ -107,7 +107,7 @@ Better luck next time
     Log to console  ..
     Log to console  ............It took ${TOTAL} seconds for you to answer all four questions. :)
     Log to console  ..
-    Log to console  ............This quiz was coded using Robot Framework and Python (C) K 2019
+    Log to console  ............This quiz was coded using Robot Framework and Python (C) HiQ/Keltsu 2019
     Log to console  ..
     Log to console  ..
     Sleep  3
