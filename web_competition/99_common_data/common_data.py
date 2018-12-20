@@ -6,11 +6,9 @@ from colorama import init
 init()
 from colorama import Fore, Back, Style
 ##os.chmod(hiq_pipo\temp\reports\, 777)
-
 ##os.chmod("\hiq_pipo\competitionresults.txt", 777)
 
 OUTPUT_DIR_EMPTY = "FALSE"
-
 
 def loader_demo (s):
     for c in s:
@@ -18,10 +16,16 @@ def loader_demo (s):
         sys.stdout.flush()
         time.sleep(0.001)
 
-#print(Fore.RED + 'some red text')
-#print(Back.GREEN + 'and with a green background')
-#print(Style.DIM + 'and in dim text')
+def delay_printloading (s):
+    for c in s:
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(0.1)
+        print (Fore.GREEN),
 
+delay_printloading ("""  LOADING... """)
+print (Style.RESET_ALL)
+print (Fore.WHITE + '  ')
 loader_demo ("""                                                            .#"
                                                           '##"
                            .in stereo.                 .###+"
@@ -59,10 +63,14 @@ loader_demo ("""                                                            .#"
                :`                          ,#########`               `@###########;
                                                         `              `@##########
                                                                           +########+
-                ---- 'HIQ RoboCon Quiz 2D'  (v. 0.9) -----                  .#######
+                                                                           .#######
                                                                               .+@#'
 
                                                                                """)
+print ("")
+print (Fore.BLUE + '                     ----- HIQ RoboCon Quiz 2D  (v. 0.9) -----  ')
+print (Style.RESET_ALL)
+
 
 def ask_value(question):
     allowed_values = ['1', '2', '3']
@@ -98,13 +106,14 @@ def task1():
     print ("")
     print (" Robot step is: 'Given user goes to HIQ frontpage' ")
     print ("")
-    print (" Question: ")
+    print (Fore.WHITE + 'Question: ')
     print (" Which is the correct URL for 'Go To' -keyword? ")
     print ("")
     print ("")
     print (" 1 - Go to  https://higfinland.fi/")
     print (" 2 - Go to  htps://hiqfinland.fi/")
     print (" 3 - Go to  https://hiqfinland.fi/")
+    print (Style.RESET_ALL)
     print (" ---- ")
     print ("")
     ANSWER= answer()
@@ -113,18 +122,21 @@ def task1():
         print ("")
     return ANSWER
 
+
 def task2():
     print (" Task - Open avoimet tyopaikat page ")
     print ("")
     print (" Robot step is: 'When user opens avoimet tyopaikat page' (step 2) ")
     print ("")
-    print (" Question: ")
+    #print (" Question: ")
+    print (Fore.WHITE + 'Question: ')
     print (" Which of these is a possible correct way to write robot for a click event? ")
     print ("")
     print ("")
     print (" 1 - Click element  css=.hiqfi-navigation__main ul li:nth-child(4) ")
     print (" 2 - Click element  css:.hiqfi-navigation__main ul li:nth-child(4) ")
     print (" 3 - Click element  css=.hiqfi-navigation__main ulli:nth--child(4) ")
+    print (Style.RESET_ALL)
     print (" ---- ")
     print ("")
     ANSWER = answer()
@@ -138,7 +150,8 @@ def task3():
     print ("")
     print (" Robot step is: 'And user selects test automation developer position' (step 3) ")
     print ("")
-    print (" Question: ")
+    #print (" Question: ")
+    print (Fore.WHITE + 'Question: ')
     print (" There is some CSS in the code along with some variables! Which line is written correctly? ")
     print ("")
     print ("")
@@ -148,6 +161,7 @@ def task3():
         " 2 - Click element  ${AVAILABLE_JOBS_CONTAINER}  ${AUTOMATION_DEVELOPER_CAREER_'2'}  ${AVAILABLE_JOBS_CONTAINER}  ${AVAILABLE_JOBS_SECTION}  div:nth-child(8)  ${POSITION_TITLE} ")
     print (
         " 3 - Click element  $[AVAILABLE_JOBS_CONTAINER]  ${AUTOMATION_DEVELOPER_CAREER_'3'}  ${AVAILABLE_JOBS_CONTAINER}  ${AVAILABLE_JOBS_SECTION}  div_nth--child(8)  ${POSITION_TITLE} ")
+    print (Style.RESET_ALL)
     print (" ---- ")
     print ("")
     ANSWER = answer()
@@ -167,6 +181,7 @@ def task4():
     print ("")
     for i in range(3):
         print ("")
+    print (Fore.WHITE + 'Question: ')
     print (" 1 -         ---Scroll effect 1--- ")
     print ("    @{all_rows} =  Get Webelements  ${NUMBER_OF_ROWS} ")
     print ("       :FOR  ${row}  in  @{all_rows} ")
@@ -190,6 +205,7 @@ def task4():
     print ("       \  Sleep  1 ")
     print ("       \  Close popup if appears ")
     print ("")
+    print (Style.RESET_ALL)
     print (" ---- ")
     ANSWER = answer()
     print ("")
@@ -204,30 +220,13 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.1)
 
-def delay_printfast_rf_start (s):
-    for c in s:
-        sys.stdout.write(c)
-        sys.stdout.flush()
-        time.sleep(0.01)
 
 def delete_last_line():
     sys.stdout.write('\x1b[1A')
     sys.stdout.write('\x1b[2K')
 
-
-## DEFFIT LOPPU
-
-print ("")
-
-#print("LOADING..........")
-print (Fore.RED + 'LOADING........')
-print (Style.RESET_ALL)
-
-for i in range(3):
-    print ""
 time.sleep(1)
 print ("")
-#print (" GAME INFO:")
 print (Fore.WHITE + ' GAME INFO')
 print (Style.RESET_ALL)
 print (" This is a program which gives you options to fill out missing ")
@@ -239,8 +238,7 @@ print (" You will be asked four questions. ")
 print (Fore.WHITE + ' Try to be as fast as you can!')
 print (Style.RESET_ALL)
 time.sleep(1)
-for i in range(3):
-    print ""
+print ("")
 PLAYER = raw_input(' Enter your name: ')
 print ""
 raw_input(" Pressing [ENTER] will start the timer. ")
@@ -249,8 +247,7 @@ print (Fore.WHITE + ' ------Ready?------')
 print (Style.RESET_ALL)
 print ""
 print ""
-#print ("Timer starts - NOW!")
-print (Fore.WHITE + ' Timer starts NOW! ')
+print (Fore.GREEN + ' Timer starts NOW! ')
 print ""
 print (Style.RESET_ALL)
 
@@ -266,7 +263,8 @@ while len(x)>0:
 
 
 stop = timeit.default_timer()
-print ("Timer -Stop-")
+print (Fore.GREEN + ' Timer -STOP- ')
+print (Style.RESET_ALL)
 TOTAL =float("{0:.2f}".format(stop - start))
 for i in range(3):
     print ("")
@@ -278,8 +276,8 @@ print (".")
 for i in range(3):
     print ("")
 time.sleep(1)
-print (Fore.WHITE + ' Let us now try your robot code in action !')
-print (Style.RESET_ALL)
+print (" Let's try your robot code now in action !")
 print ("")
-print ("  ...STARTING ROBOT FRAMEWORK")
+delay_printloading ("  ...STARTING ROBOT FRAMEWORK")
+print (Style.RESET_ALL)
 print ("")
