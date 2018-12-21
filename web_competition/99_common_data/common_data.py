@@ -243,16 +243,15 @@ print ("")
 print (Fore.WHITE + ' ROBOT>  Try to be as fast as you can!')
 print (Style.RESET_ALL)
 time.sleep(1)
-PLAYER = raw_input(' A.I>   Enter your name: ')
+PLAYER = raw_input(' A.I>    Enter your name: ')
 print ""
-raw_input(" A.I>   Pressing [ENTER] will start the timer. ")
+time.sleep(1)
+raw_input(" A.I>    Pressing [ENTER] will start the timer. ")
 print ""
-#print (Fore.WHITE + ' ROBOT>  ------Ready?------')
 print (Style.RESET_ALL)
 print ""
 print ""
-print ""
-print ""
+time.sleep(1)
 print (Fore.WHITE + ' ROBOT>  Timer starts NOW! ')
 print ""
 print (Style.RESET_ALL)
@@ -272,17 +271,17 @@ stop = timeit.default_timer()
 print (Fore.WHITE + ' ROBOT>  Timer -STOP- ')
 print (Style.RESET_ALL)
 TOTAL =float("{0:.2f}".format(stop - start))
+print ("")
+time.sleep(1)
+delay_printloading (" .....")
+print (Style.RESET_ALL)
+#print ("...")
+#print ("..")
+#print (".")
 for i in range(2):
     print ("")
 time.sleep(1)
-print (".....")
-print ("...")
-print ("..")
-print (".")
-for i in range(2):
-    print ("")
-time.sleep(1)
-print (" A.I>   Let's try your robot code now in action !")
+print (" A.I>    Let's try your robot code now in action !")
 print ("")
 delay_printloading (" STARTING ROBOT FRAMEWORK")
 print (Style.RESET_ALL)
