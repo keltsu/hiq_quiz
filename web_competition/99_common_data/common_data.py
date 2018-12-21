@@ -5,6 +5,7 @@ import random
 from colorama import init
 init()
 from colorama import Fore, Back, Style
+
 ##os.chmod(hiq_pipo\temp\reports\, 777)
 ##os.chmod("\hiq_pipo\competitionresults.txt", 777)
 
@@ -24,7 +25,6 @@ def delay_printloading (s):
         print (Fore.RED),
 
 delay_printloading ("""    LOADING... """)
-
 print ("")
 print ("")
 print (Style.RESET_ALL)
@@ -72,7 +72,7 @@ loader_demo ("""         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
          MMMMMMN..MMMMM/`oMMh:```-oMMMs`/-.`-yMMMd/.``.+NMMMm+.``.:yMMMMs-```:yMMM..MMMN..MMMMMMMh/.``./s-/MMy-``-/`+MMy`oMM-`.....sMMMMMMMM/``.....NMh``....:sNMMMMMMMMM
          MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM """)
 print ("")
-print (Fore.BLUE + '                                                                   ----- HIQ RoboCon Quiz 2D  (v. 0.9) -----  ')
+print (Fore.BLUE + '         (C) HiQ/Keltsu 2019                                        ----- HIQ RoboCon Quiz 2D  (v. 0.9) -----                                   http://www.hiqfinland.fi/')
 print (Style.RESET_ALL)
 
 
@@ -213,8 +213,8 @@ def task4():
     print (" ---- ")
     ANSWER = answer()
     print ("")
-    for i in range(3):
-        print ("")
+   # for i in range(3):
+   #     print ("")
     return ANSWER
 
 
@@ -231,26 +231,29 @@ def delete_last_line():
 
 time.sleep(1)
 print ("")
-print (Fore.WHITE + ' GAME INFO')
+print (Fore.WHITE + ' ROBOT>  GAME INFO')
 print (Style.RESET_ALL)
-print (" This is a program which gives you options to fill out missing ")
-print (" commands from a robot test with the options you choose.")
-print (" Then robot tries to run the tests using given values. ")
+print (" A.I>    This is a program which gives you options to fill out missing ")
+print ("         commands from a robot test with the options you choose.")
+print ("         Then robot tries to run the tests using the given values. ")
 print ("")
 time.sleep(1)
-print (" You will be asked four questions. ")
-print (Fore.WHITE + ' Try to be as fast as you can!')
+print ("         You will be asked four questions. ")
+print ("")
+print (Fore.WHITE + ' ROBOT>  Try to be as fast as you can!')
 print (Style.RESET_ALL)
 time.sleep(1)
-PLAYER = raw_input(' Enter your name: ')
+PLAYER = raw_input(' A.I>   Enter your name: ')
 print ""
-raw_input(" Pressing [ENTER] will start the timer. ")
+raw_input(" A.I>   Pressing [ENTER] will start the timer. ")
 print ""
-print (Fore.WHITE + ' ------Ready?------')
+#print (Fore.WHITE + ' ROBOT>  ------Ready?------')
 print (Style.RESET_ALL)
 print ""
 print ""
-print (Fore.GREEN + ' Timer starts NOW! ')
+print ""
+print ""
+print (Fore.WHITE + ' ROBOT>  Timer starts NOW! ')
 print ""
 print (Style.RESET_ALL)
 
@@ -266,21 +269,21 @@ while len(x)>0:
 
 
 stop = timeit.default_timer()
-print (Fore.GREEN + ' Timer -STOP- ')
+print (Fore.WHITE + ' ROBOT>  Timer -STOP- ')
 print (Style.RESET_ALL)
 TOTAL =float("{0:.2f}".format(stop - start))
-for i in range(3):
+for i in range(2):
     print ("")
 time.sleep(1)
 print (".....")
 print ("...")
 print ("..")
 print (".")
-for i in range(3):
+for i in range(2):
     print ("")
 time.sleep(1)
-print (" Let's try your robot code now in action !")
+print (" A.I>   Let's try your robot code now in action !")
 print ("")
-delay_printloading ("  STARTING ROBOT FRAMEWORK")
+delay_printloading (" STARTING ROBOT FRAMEWORK")
 print (Style.RESET_ALL)
 print ("")

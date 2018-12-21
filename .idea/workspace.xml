@@ -4,12 +4,11 @@
     <list default="true" id="fcb9956e-802b-45d6-8e3f-708a3e0656d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/reports/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/reports/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/reports/log.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/temp/reports/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/temp/reports/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/reports/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/reports/selenium-screenshot-1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web_competition/99_common_data/common_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_competition/99_common_data/common_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_competition/competitionresults.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_competition/competitionresults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_competition/scores/competitionresults.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_competition/scores/competitionresults.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/quiz.cmd">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            <state relative-caret-position="630">
+              <caret line="279" column="12" lean-forward="true" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -401,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -418,10 +410,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quiz.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="630">
+          <caret line="279" column="12" lean-forward="true" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
