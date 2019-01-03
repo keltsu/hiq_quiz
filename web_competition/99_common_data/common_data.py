@@ -84,7 +84,7 @@ def ask_value(question):
             if value_from_user in allowed_values:
                 break
         except:
-            print("Not an applicable answer. Give a numerical value between 1-3 ")
+            print(" A.I>    Not an applicable answer. Give a numerical value between 1-3 ")
     return value_from_user
 
 def task_selector(number):
@@ -100,15 +100,16 @@ def task_selector(number):
     return y
 
 def answer():
-    value = ask_value("Your answer to this question is (1, 2, or 3) ? ")
+    value = ask_value(" A.I>    Your answer to this question is ? (1, 2, or 3) ")
     ANSWER = str(value)
     return ANSWER
 
 
 def task1():
-    print (" Task - Enter HiQ homepage (step 1) ")
+    print (Fore.BLUE + ' Task - Enter HiQ homepage ')
     print ("")
-    print (" Robot step is: 'Given user goes to HIQ frontpage' ")
+    print (Fore.BLUE + ' Robot step is: Given user goes to HIQ frontpage (step 1)')
+    print (Style.RESET_ALL)
     print ("")
     print (Fore.WHITE + 'Question: ')
     print (" Which is the correct URL for 'Go To' -keyword? ")
@@ -128,11 +129,11 @@ def task1():
 
 
 def task2():
-    print (" Task - Open avoimet tyopaikat page ")
+    print (Fore.BLUE + ' Task - Open avoimet tyopaikat page ')
     print ("")
-    print (" Robot step is: 'When user opens avoimet tyopaikat page' (step 2) ")
+    print (" Robot step is: When user opens avoimet tyopaikat page (step 2) ")
     print ("")
-    #print (" Question: ")
+    print (Style.RESET_ALL)
     print (Fore.WHITE + 'Question: ')
     print (" Which of these is a possible correct way to write robot for a click event? ")
     print ("")
@@ -150,11 +151,11 @@ def task2():
     return ANSWER
 
 def task3():
-    print (" Task - Select test automation developer career from available positions ")
+    print (Fore.BLUE + ' Task - Select test automation developer career from available positions ')
     print ("")
-    print (" Robot step is: 'And user selects test automation developer position' (step 3) ")
+    print (" Robot step is: And user selects test automation developer position (step 3) ")
     print ("")
-    #print (" Question: ")
+    print (Style.RESET_ALL)
     print (Fore.WHITE + 'Question: ')
     print (" There is some CSS in the code along with some variables! Which line is written correctly? ")
     print ("")
@@ -175,10 +176,11 @@ def task3():
     return ANSWER
 
 def task4():
-    print (" Task - View and scroll selected career information ")
+    print (Fore.BLUE + ' Task - View and scroll selected career information ')
     print ("")
-    print (" Robot step is: 'Then user can see information on automation developer career in HiQ' (step 4) ")
+    print (" Robot step is: Then user can see information on automation developer career in HiQ (step 4) ")
     print ("")
+    print (Style.RESET_ALL)
     print (" Question: ")
     print (
         " Let's use robot framework for a fancy web page scrolling. Which one of the given FOR loops can actually do the scroll? ")
@@ -213,8 +215,6 @@ def task4():
     print (" ---- ")
     ANSWER = answer()
     print ("")
-   # for i in range(3):
-   #     print ("")
     return ANSWER
 
 
@@ -275,9 +275,6 @@ print ("")
 time.sleep(1)
 delay_printloading (" .....")
 print (Style.RESET_ALL)
-#print ("...")
-#print ("..")
-#print (".")
 for i in range(2):
     print ("")
 time.sleep(1)
