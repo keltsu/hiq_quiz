@@ -246,7 +246,7 @@ time.sleep(1)
 PLAYER = raw_input(' A.I>    Enter your name: ')
 print ""
 time.sleep(1)
-raw_input(" A.I>    Pressing [ENTER] will start the timer. ")
+raw_input(Fore.WHITE + ' ROBOT>  Pressing [ENTER] will start the timer. ')
 print ""
 print (Style.RESET_ALL)
 print ""
