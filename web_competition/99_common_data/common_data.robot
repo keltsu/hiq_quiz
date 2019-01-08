@@ -3,8 +3,8 @@ Library   SeleniumLibrary
 Library   OperatingSystem
 
 *** Variables ***
-${WINDOW_WIDTH}                       1440
-${WINDOW_HEIGHT}                      880
+${WINDOW_WIDTH}                       1540
+${WINDOW_HEIGHT}                      870
 ${CHROMEBROWSER}                      chrome
 ${BLANK_PAGE}                         about:blank
 
@@ -63,6 +63,7 @@ User wants to enter competition
     Empty output directory if needed
     Open Browser                      ${BLANK_PAGE}  ${CHROMEBROWSER}
     Set Window Size                   ${WINDOW_WIDTH}  ${WINDOW_HEIGHT}
+    Set Window Position  194  5
 
 Empty output directory if needed
     Run keyword if  '${OUTPUT_DIR_EMPTY}' == 'FALSE'  Remove output data
