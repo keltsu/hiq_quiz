@@ -63,7 +63,7 @@ User wants to enter competition
     Empty output directory if needed
     Open Browser                      ${BLANK_PAGE}  ${CHROMEBROWSER}
     Set Window Size                   ${WINDOW_WIDTH}  ${WINDOW_HEIGHT}
-    Set Window Position  194  5
+    Set Window Position               180  5
 
 Empty output directory if needed
     Run keyword if  '${OUTPUT_DIR_EMPTY}' == 'FALSE'  Remove output data

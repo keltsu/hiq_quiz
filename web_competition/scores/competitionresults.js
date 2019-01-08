@@ -1,1 +1,1 @@
-var hscore = "__'keltsu12345''12.08'__'werlk''6.16'__'Speedy gonzales''16.9'__'keltsu''4.59'__'keltsu''4.94'__'Jari''262.68'__'keltsu''6.89'__'keltsu''6.09'__'keltsu''1.88'__'keltsu''5.54'__'keltsu''4.71'__'keltsu''5.15'__'keltsu''5.53'__'keltsu''7.48'__'keltsu''14.1'__'slkj''7.8'__'keltsu''10.0'__'keltsu''8.98'__'keltsu''5.93'__'keltsu''6.79'__'''10.92'__'keltsu''10.52'"
+var hscore = "__'keltsu''4.86'__'keltsu''5.0'"
