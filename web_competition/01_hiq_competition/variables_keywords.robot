@@ -20,7 +20,7 @@ ${AUTOMATION_DEVELOPER_CAREER_'3'}  ${AVAILABLE_JOBS_CONTAINER}  ${AVAILABLE_JOB
 A fancy webpage scroll effect 1
     Sleep  2
     @{all_rows} =  Get Webelements  ${NUMBER_OF_ROWS}
-       :FOR  ${row}  in  @{all_rows}
+       :FOR  ${row}  IN  @{all_rows}
        \  Scroll element into view  ${row}
        \  Sleep  1
        \  Close popup if appears
@@ -28,7 +28,7 @@ A fancy webpage scroll effect 1
 A fancy webpage scroll effect 2
     Sleep  2
     @{all_rows} =  Get Webelement  ${NUMBER_OF_ROWS}
-       :FOR  ${row}  in  @{all_rows}
+       :FOR  ${row}  IN  @{all_rows}
        \  Scroll element into view  ${row}
        \  Sleep  1
        \  Close popup if appears
@@ -36,7 +36,7 @@ A fancy webpage scroll effect 2
 A fancy webpage scroll effect 3
     Sleep  2
     @{all_rows} =  Get Webelements  ${NUMBER_OF_ROWS}
-       FOR  ${row}  in  @{all_rows}
+       FOR  ${row}  IN  @{all_rows}
        \  Scroll element into view  ${row}
        \  Sleep  1
        \  Close popup if appears

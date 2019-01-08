@@ -3,8 +3,8 @@ Library   SeleniumLibrary
 Library   OperatingSystem
 
 *** Variables ***
-${WINDOW_WIDTH}                       1820
-${WINDOW_HEIGHT}                      980
+${WINDOW_WIDTH}                       1440
+${WINDOW_HEIGHT}                      880
 ${CHROMEBROWSER}                      chrome
 ${BLANK_PAGE}                         about:blank
 
