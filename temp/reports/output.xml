@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190109 12:31:50.820" generator="Robot 3.1 (Python 2.7.15 on win32)">
+<robot rpa="false" generated="20190109 12:49:07.285" generator="Robot 3.1 (Python 2.7.15 on win32)">
 <suite source="C:\hiq_quiz" id="s1" name="Hiq Quiz">
 <suite source="C:\hiq_quiz\web_competition" id="s1-s1" name="Web Competition">
 <suite source="C:\hiq_quiz\web_competition\01_hiq_competition" id="s1-s1-s1" name="01 Hiq Competition">
@@ -19,10 +19,10 @@
 <arg>${OUTPUT_DIR}/*.png</arg>
 <arg>${OUTPUT_DIR}/*.html</arg>
 </arguments>
-<msg timestamp="20190109 12:32:29.185" html="yes" level="INFO">Removed file '&lt;a href="file://C:\hiq_quiz\temp\reports\selenium-screenshot-1.png"&gt;C:\hiq_quiz\temp\reports\selenium-screenshot-1.png&lt;/a&gt;'.</msg>
-<msg timestamp="20190109 12:32:29.185" html="yes" level="INFO">Removed file '&lt;a href="file://C:\hiq_quiz\temp\reports\log.html"&gt;C:\hiq_quiz\temp\reports\log.html&lt;/a&gt;'.</msg>
-<msg timestamp="20190109 12:32:29.185" html="yes" level="INFO">Removed file '&lt;a href="file://C:\hiq_quiz\temp\reports\report.html"&gt;C:\hiq_quiz\temp\reports\report.html&lt;/a&gt;'.</msg>
-<status status="PASS" endtime="20190109 12:32:29.185" starttime="20190109 12:32:29.185"></status>
+<msg timestamp="20190109 12:49:48.185" html="yes" level="INFO">Removed file '&lt;a href="file://C:\hiq_quiz\temp\reports\selenium-screenshot-1.png"&gt;C:\hiq_quiz\temp\reports\selenium-screenshot-1.png&lt;/a&gt;'.</msg>
+<msg timestamp="20190109 12:49:48.201" html="yes" level="INFO">Removed file '&lt;a href="file://C:\hiq_quiz\temp\reports\log.html"&gt;C:\hiq_quiz\temp\reports\log.html&lt;/a&gt;'.</msg>
+<msg timestamp="20190109 12:49:48.201" html="yes" level="INFO">Removed file '&lt;a href="file://C:\hiq_quiz\temp\reports\report.html"&gt;C:\hiq_quiz\temp\reports\report.html&lt;/a&gt;'.</msg>
+<status status="PASS" endtime="20190109 12:49:48.201" starttime="20190109 12:49:48.185"></status>
 </kw>
 <kw name="Set Global Variable" library="BuiltIn">
 <doc>Makes a variable available globally in all tests and suites.</doc>
@@ -30,14 +30,14 @@
 <arg>${OUTPUT_DIR_EMPTY}</arg>
 <arg>TRUE</arg>
 </arguments>
-<msg timestamp="20190109 12:32:29.185" level="INFO">${OUTPUT_DIR_EMPTY} = TRUE</msg>
-<status status="PASS" endtime="20190109 12:32:29.185" starttime="20190109 12:32:29.185"></status>
+<msg timestamp="20190109 12:49:48.201" level="INFO">${OUTPUT_DIR_EMPTY} = TRUE</msg>
+<status status="PASS" endtime="20190109 12:49:48.201" starttime="20190109 12:49:48.201"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:29.185" starttime="20190109 12:32:29.185"></status>
+<status status="PASS" endtime="20190109 12:49:48.201" starttime="20190109 12:49:48.185"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:29.185" starttime="20190109 12:32:29.185"></status>
+<status status="PASS" endtime="20190109 12:49:48.201" starttime="20190109 12:49:48.185"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:29.185" starttime="20190109 12:32:29.185"></status>
+<status status="PASS" endtime="20190109 12:49:48.201" starttime="20190109 12:49:48.185"></status>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -45,8 +45,8 @@
 <arg>${BLANK_PAGE}</arg>
 <arg>${CHROMEBROWSER}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:29.201" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" endtime="20190109 12:32:31.623" starttime="20190109 12:32:29.185"></status>
+<msg timestamp="20190109 12:49:48.201" level="INFO">Opening browser 'chrome' to base url 'about:bla nk'.</msg>
+<status status="PASS" endtime="20190109 12:49:52.131" starttime="20190109 12:49:48.201"></status>
 </kw>
 <kw name="Set Window Size" library="SeleniumLibrary">
 <doc>Sets current windows size to given ``width`` and ``height``.</doc>
@@ -54,7 +54,7 @@
 <arg>${WINDOW_WIDTH}</arg>
 <arg>${WINDOW_HEIGHT}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:32.781" starttime="20190109 12:32:31.624"></status>
+<status status="PASS" endtime="20190109 12:49:53.295" starttime="20190109 12:49:52.131"></status>
 </kw>
 <kw name="Set Window Position" library="SeleniumLibrary">
 <doc>Sets window position using ``x`` and ``y`` coordinates.</doc>
@@ -62,9 +62,9 @@
 <arg>1</arg>
 <arg>5</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:32.891" starttime="20190109 12:32:32.781"></status>
+<status status="PASS" endtime="20190109 12:49:53.414" starttime="20190109 12:49:53.295"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:32.891" starttime="20190109 12:32:29.185"></status>
+<status status="PASS" endtime="20190109 12:49:53.414" starttime="20190109 12:49:48.185"></status>
 </kw>
 <test id="s1-s1-s1-s1-t1" name="Task 1 - Enter HIQ homepage">
 <kw name="Given user goes to HIQ frontpage" library="common_data">
@@ -83,17 +83,17 @@
 <arguments>
 <arg>${URL_\'${direction}'}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:32.891" level="INFO">Opening url 'https://hiqfinland.fi/'</msg>
-<status status="PASS" endtime="20190109 12:32:35.823" starttime="20190109 12:32:32.891"></status>
+<msg timestamp="20190109 12:49:53.414" level="INFO">Opening url 'https://hiqfinland.fi/'</msg>
+<status status="PASS" endtime="20190109 12:49:54.622" starttime="20190109 12:49:53.414"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:35.823" starttime="20190109 12:32:32.891"></status>
+<status status="PASS" endtime="20190109 12:49:54.622" starttime="20190109 12:49:53.414"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${HIQ_LOGO}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:35.872" starttime="20190109 12:32:35.823"></status>
+<status status="PASS" endtime="20190109 12:49:55.562" starttime="20190109 12:49:54.622"></status>
 </kw>
 <kw name="Accept cookies" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -110,11 +110,11 @@
 <arguments>
 <arg>${COOKIE_OK_BUTTON}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:35.885" level="INFO">Current page does not contain element 'css=#accept-cookie'.</msg>
-<status status="PASS" endtime="20190109 12:32:35.885" starttime="20190109 12:32:35.874"></status>
+<msg timestamp="20190109 12:49:55.627" level="INFO">Current page does not contain element 'css=#accept-cookie'.</msg>
+<status status="PASS" endtime="20190109 12:49:55.627" starttime="20190109 12:49:55.563"></status>
 </kw>
-<msg timestamp="20190109 12:32:35.885" level="INFO">${status} = True</msg>
-<status status="PASS" endtime="20190109 12:32:35.885" starttime="20190109 12:32:35.873"></status>
+<msg timestamp="20190109 12:49:55.628" level="INFO">${status} = True</msg>
+<status status="PASS" endtime="20190109 12:49:55.628" starttime="20190109 12:49:55.562"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -123,20 +123,20 @@
 <arg>Click element</arg>
 <arg>${COOKIE_OK_BUTTON}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:35.885" starttime="20190109 12:32:35.885"></status>
+<status status="PASS" endtime="20190109 12:49:55.630" starttime="20190109 12:49:55.629"></status>
 </kw>
 <kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is not visible.</doc>
 <arguments>
 <arg>${COOKIE_OK_BUTTON}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:35.903" starttime="20190109 12:32:35.885"></status>
+<status status="PASS" endtime="20190109 12:49:55.727" starttime="20190109 12:49:55.631"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:35.903" starttime="20190109 12:32:35.872"></status>
+<status status="PASS" endtime="20190109 12:49:55.727" starttime="20190109 12:49:55.562"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:35.903" starttime="20190109 12:32:32.891"></status>
+<status status="PASS" endtime="20190109 12:49:55.728" starttime="20190109 12:49:53.414"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:35.904" critical="yes" starttime="20190109 12:32:32.891"></status>
+<status status="PASS" endtime="20190109 12:49:55.734" critical="yes" starttime="20190109 12:49:53.414"></status>
 </test>
 <test id="s1-s1-s1-s1-t2" name="Task 2 - Open careers">
 <kw name="When user opens avoimet tyopaikat page" library="common_data">
@@ -159,45 +159,45 @@
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:35.977" starttime="20190109 12:32:35.909"></status>
+<status status="PASS" endtime="20190109 12:49:55.935" starttime="20190109 12:49:55.764"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:36.010" starttime="20190109 12:32:35.978"></status>
+<status status="PASS" endtime="20190109 12:49:55.966" starttime="20190109 12:49:55.935"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:36.011" level="INFO">Simulating Mouse Over on element 'css=.hiqfi-navigation__main ul li:nth-child(4)'.</msg>
-<status status="PASS" endtime="20190109 12:32:36.044" starttime="20190109 12:32:36.010"></status>
+<msg timestamp="20190109 12:49:55.973" level="INFO">Simulating Mouse Over on element 'css=.hiqfi-navigation__main ul li:nth-child(4)'.</msg>
+<status status="PASS" endtime="20190109 12:49:55.996" starttime="20190109 12:49:55.972"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:36.045" level="INFO">Clicking element 'css=.hiqfi-navigation__main ul li:nth-child(4)'.</msg>
-<status status="PASS" endtime="20190109 12:32:36.318" starttime="20190109 12:32:36.044"></status>
+<msg timestamp="20190109 12:49:55.996" level="INFO">Clicking element 'css=.hiqfi-navigation__main ul li:nth-child(4)'.</msg>
+<status status="PASS" endtime="20190109 12:49:56.280" starttime="20190109 12:49:55.996"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:36.318" starttime="20190109 12:32:35.909"></status>
+<status status="PASS" endtime="20190109 12:49:56.281" starttime="20190109 12:49:55.763"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:36.319" starttime="20190109 12:32:35.908"></status>
+<status status="PASS" endtime="20190109 12:49:56.281" starttime="20190109 12:49:55.760"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${AVAILABLE_JOBS_CONTAINER}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:36.420" starttime="20190109 12:32:36.319"></status>
+<status status="PASS" endtime="20190109 12:49:56.465" starttime="20190109 12:49:56.281"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:36.420" starttime="20190109 12:32:35.907"></status>
+<status status="PASS" endtime="20190109 12:49:56.466" starttime="20190109 12:49:55.758"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:36.423" critical="yes" starttime="20190109 12:32:35.906"></status>
+<status status="PASS" endtime="20190109 12:49:56.471" critical="yes" starttime="20190109 12:49:55.750"></status>
 </test>
 <test id="s1-s1-s1-s1-t3" name="Task 3 - Select a career">
 <kw name="And user selects test automation developer position" library="common_data">
@@ -220,45 +220,45 @@
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:36.554" starttime="20190109 12:32:36.436"></status>
+<status status="PASS" endtime="20190109 12:49:56.564" starttime="20190109 12:49:56.486"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:36.630" starttime="20190109 12:32:36.554"></status>
+<status status="PASS" endtime="20190109 12:49:56.641" starttime="20190109 12:49:56.565"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:36.631" level="INFO">Simulating Mouse Over on element 'css=#root div:nth-child(2) section.hiqfi-featuredEntryBlock.hiqfi-white .hiqfi-featuredEntrySection div:nth-child(8) .hiqfi-featuredEntry__title'.</msg>
-<status status="PASS" endtime="20190109 12:32:36.705" starttime="20190109 12:32:36.631"></status>
+<msg timestamp="20190109 12:49:56.642" level="INFO">Simulating Mouse Over on element 'css=#root div:nth-child(2) section.hiqfi-featuredEntryBlock.hiqfi-white .hiqfi-featuredEntrySection div:nth-child(8) .hiqfi-featuredEntry__title'.</msg>
+<status status="PASS" endtime="20190109 12:49:56.706" starttime="20190109 12:49:56.642"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${element}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:36.706" level="INFO">Clicking element 'css=#root div:nth-child(2) section.hiqfi-featuredEntryBlock.hiqfi-white .hiqfi-featuredEntrySection div:nth-child(8) .hiqfi-featuredEntry__title'.</msg>
-<status status="PASS" endtime="20190109 12:32:37.437" starttime="20190109 12:32:36.705"></status>
+<msg timestamp="20190109 12:49:56.707" level="INFO">Clicking element 'css=#root div:nth-child(2) section.hiqfi-featuredEntryBlock.hiqfi-white .hiqfi-featuredEntrySection div:nth-child(8) .hiqfi-featuredEntry__title'.</msg>
+<status status="PASS" endtime="20190109 12:49:59.223" starttime="20190109 12:49:56.707"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:37.437" starttime="20190109 12:32:36.434"></status>
+<status status="PASS" endtime="20190109 12:49:59.223" starttime="20190109 12:49:56.485"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:37.437" starttime="20190109 12:32:36.432"></status>
+<status status="PASS" endtime="20190109 12:49:59.223" starttime="20190109 12:49:56.483"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${POSITION_HEADER}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:37.525" starttime="20190109 12:32:37.438"></status>
+<status status="PASS" endtime="20190109 12:49:59.271" starttime="20190109 12:49:59.223"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:37.526" starttime="20190109 12:32:36.430"></status>
+<status status="PASS" endtime="20190109 12:49:59.272" starttime="20190109 12:49:56.480"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:37.536" critical="yes" starttime="20190109 12:32:36.427"></status>
+<status status="PASS" endtime="20190109 12:49:59.272" critical="yes" starttime="20190109 12:49:56.477"></status>
 </test>
 <test id="s1-s1-s1-s1-t4" name="Task 4 - View and scroll down career information">
 <kw name="Then user can see information on automation developer career in HiQ" library="common_data">
@@ -277,8 +277,8 @@
 <arguments>
 <arg>2</arg>
 </arguments>
-<msg timestamp="20190109 12:32:39.546" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190109 12:32:39.546" starttime="20190109 12:32:37.545"></status>
+<msg timestamp="20190109 12:50:01.293" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190109 12:50:01.293" starttime="20190109 12:49:59.280"></status>
 </kw>
 <kw name="Get WebElements" library="SeleniumLibrary">
 <doc>Returns list of WebElement objects matching the ``locator``.</doc>
@@ -288,25 +288,25 @@
 <assign>
 <var>@{all_rows}</var>
 </assign>
-<msg timestamp="20190109 12:32:39.559" level="INFO">@{all_rows} = [ &lt;selenium.webdriver.remote.webelement.WebElement (session="8a794441b01dc4635826a1b833c25766", element="0.9808531291149294-6")&gt; | &lt;selenium.webdriver.remote.webelement.WebElement (session="8a794441b0...</msg>
-<status status="PASS" endtime="20190109 12:32:39.559" starttime="20190109 12:32:39.546"></status>
+<msg timestamp="20190109 12:50:01.309" level="INFO">@{all_rows} = [ &lt;selenium.webdriver.remote.webelement.WebElement (session="b255e011df021e767537d870849ffdbe", element="0.6289693251524968-6")&gt; | &lt;selenium.webdriver.remote.webelement.WebElement (session="b255e011df...</msg>
+<status status="PASS" endtime="20190109 12:50:01.309" starttime="20190109 12:50:01.293"></status>
 </kw>
 <kw type="for" name="${row} IN [ @{all_rows} ]">
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-6&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-6&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:39.587" starttime="20190109 12:32:39.559"></status>
+<status status="PASS" endtime="20190109 12:50:01.353" starttime="20190109 12:50:01.309"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:40.596" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:40.597" starttime="20190109 12:32:39.587"></status>
+<msg timestamp="20190109 12:50:02.354" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:02.354" starttime="20190109 12:50:01.353"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -323,11 +323,11 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:40.640" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:40.640" starttime="20190109 12:32:40.600"></status>
+<msg timestamp="20190109 12:50:02.389" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:02.389" starttime="20190109 12:50:02.354"></status>
 </kw>
-<msg timestamp="20190109 12:32:40.640" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:40.640" starttime="20190109 12:32:40.599"></status>
+<msg timestamp="20190109 12:50:02.389" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:02.389" starttime="20190109 12:50:02.354"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -340,29 +340,29 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:40.642" starttime="20190109 12:32:40.642"></status>
+<status status="PASS" endtime="20190109 12:50:02.394" starttime="20190109 12:50:02.394"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:40.642" starttime="20190109 12:32:40.641"></status>
+<status status="PASS" endtime="20190109 12:50:02.394" starttime="20190109 12:50:02.394"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:40.643" starttime="20190109 12:32:40.598"></status>
+<status status="PASS" endtime="20190109 12:50:02.394" starttime="20190109 12:50:02.354"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:40.643" starttime="20190109 12:32:39.559"></status>
+<status status="PASS" endtime="20190109 12:50:02.394" starttime="20190109 12:50:01.309"></status>
 </kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-7&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-7&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:40.682" starttime="20190109 12:32:40.643"></status>
+<status status="PASS" endtime="20190109 12:50:02.449" starttime="20190109 12:50:02.394"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:41.686" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:41.686" starttime="20190109 12:32:40.682"></status>
+<msg timestamp="20190109 12:50:03.454" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:03.454" starttime="20190109 12:50:02.449"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -379,11 +379,11 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:41.706" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:41.706" starttime="20190109 12:32:41.686"></status>
+<msg timestamp="20190109 12:50:03.474" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:03.474" starttime="20190109 12:50:03.455"></status>
 </kw>
-<msg timestamp="20190109 12:32:41.706" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:41.706" starttime="20190109 12:32:41.686"></status>
+<msg timestamp="20190109 12:50:03.474" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:03.474" starttime="20190109 12:50:03.455"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -396,29 +396,29 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:41.716" starttime="20190109 12:32:41.716"></status>
+<status status="PASS" endtime="20190109 12:50:03.484" starttime="20190109 12:50:03.474"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:41.716" starttime="20190109 12:32:41.706"></status>
+<status status="PASS" endtime="20190109 12:50:03.484" starttime="20190109 12:50:03.474"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:41.716" starttime="20190109 12:32:41.686"></status>
+<status status="PASS" endtime="20190109 12:50:03.484" starttime="20190109 12:50:03.455"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:41.716" starttime="20190109 12:32:40.643"></status>
+<status status="PASS" endtime="20190109 12:50:03.484" starttime="20190109 12:50:02.394"></status>
 </kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-8&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-8&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:41.768" starttime="20190109 12:32:41.716"></status>
+<status status="PASS" endtime="20190109 12:50:03.533" starttime="20190109 12:50:03.484"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:42.776" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:42.776" starttime="20190109 12:32:41.768"></status>
+<msg timestamp="20190109 12:50:04.534" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:04.534" starttime="20190109 12:50:03.533"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -435,11 +435,11 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:42.795" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:42.795" starttime="20190109 12:32:42.776"></status>
+<msg timestamp="20190109 12:50:04.556" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:04.556" starttime="20190109 12:50:04.534"></status>
 </kw>
-<msg timestamp="20190109 12:32:42.795" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:42.795" starttime="20190109 12:32:42.776"></status>
+<msg timestamp="20190109 12:50:04.556" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:04.556" starttime="20190109 12:50:04.534"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -452,29 +452,29 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:42.806" starttime="20190109 12:32:42.806"></status>
+<status status="PASS" endtime="20190109 12:50:04.564" starttime="20190109 12:50:04.556"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:42.806" starttime="20190109 12:32:42.795"></status>
+<status status="PASS" endtime="20190109 12:50:04.564" starttime="20190109 12:50:04.556"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:42.806" starttime="20190109 12:32:42.776"></status>
+<status status="PASS" endtime="20190109 12:50:04.564" starttime="20190109 12:50:04.534"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:42.806" starttime="20190109 12:32:41.716"></status>
+<status status="PASS" endtime="20190109 12:50:04.564" starttime="20190109 12:50:03.484"></status>
 </kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-9&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-9&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:42.851" starttime="20190109 12:32:42.806"></status>
+<status status="PASS" endtime="20190109 12:50:04.616" starttime="20190109 12:50:04.564"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:43.856" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:43.856" starttime="20190109 12:32:42.852"></status>
+<msg timestamp="20190109 12:50:05.617" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:05.617" starttime="20190109 12:50:04.616"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -491,11 +491,11 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:43.875" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:43.875" starttime="20190109 12:32:43.856"></status>
+<msg timestamp="20190109 12:50:05.643" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:05.643" starttime="20190109 12:50:05.620"></status>
 </kw>
-<msg timestamp="20190109 12:32:43.875" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:43.875" starttime="20190109 12:32:43.856"></status>
+<msg timestamp="20190109 12:50:05.643" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:05.643" starttime="20190109 12:50:05.619"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -508,29 +508,29 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:43.885" starttime="20190109 12:32:43.885"></status>
+<status status="PASS" endtime="20190109 12:50:05.643" starttime="20190109 12:50:05.643"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:43.885" starttime="20190109 12:32:43.875"></status>
+<status status="PASS" endtime="20190109 12:50:05.643" starttime="20190109 12:50:05.643"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:43.885" starttime="20190109 12:32:43.856"></status>
+<status status="PASS" endtime="20190109 12:50:05.643" starttime="20190109 12:50:05.618"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:43.885" starttime="20190109 12:32:42.806"></status>
+<status status="PASS" endtime="20190109 12:50:05.643" starttime="20190109 12:50:04.564"></status>
 </kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-10&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-10&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:43.933" starttime="20190109 12:32:43.885"></status>
+<status status="PASS" endtime="20190109 12:50:05.700" starttime="20190109 12:50:05.648"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:44.934" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:44.934" starttime="20190109 12:32:43.933"></status>
+<msg timestamp="20190109 12:50:06.706" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:06.706" starttime="20190109 12:50:05.700"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -547,11 +547,11 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:44.956" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:44.956" starttime="20190109 12:32:44.938"></status>
+<msg timestamp="20190109 12:50:06.722" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:06.722" starttime="20190109 12:50:06.706"></status>
 </kw>
-<msg timestamp="20190109 12:32:44.956" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:44.956" starttime="20190109 12:32:44.936"></status>
+<msg timestamp="20190109 12:50:06.722" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:06.722" starttime="20190109 12:50:06.706"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -564,29 +564,29 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:44.965" starttime="20190109 12:32:44.956"></status>
+<status status="PASS" endtime="20190109 12:50:06.722" starttime="20190109 12:50:06.722"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:44.965" starttime="20190109 12:32:44.956"></status>
+<status status="PASS" endtime="20190109 12:50:06.722" starttime="20190109 12:50:06.722"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:44.965" starttime="20190109 12:32:44.935"></status>
+<status status="PASS" endtime="20190109 12:50:06.722" starttime="20190109 12:50:06.706"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:44.965" starttime="20190109 12:32:43.885"></status>
+<status status="PASS" endtime="20190109 12:50:06.737" starttime="20190109 12:50:05.648"></status>
 </kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-11&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-11&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:45.017" starttime="20190109 12:32:44.965"></status>
+<status status="PASS" endtime="20190109 12:50:06.766" starttime="20190109 12:50:06.737"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:46.018" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:46.018" starttime="20190109 12:32:45.017"></status>
+<msg timestamp="20190109 12:50:07.769" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:07.769" starttime="20190109 12:50:06.766"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -603,11 +603,11 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:46.048" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:46.048" starttime="20190109 12:32:46.021"></status>
+<msg timestamp="20190109 12:50:07.789" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:07.789" starttime="20190109 12:50:07.769"></status>
 </kw>
-<msg timestamp="20190109 12:32:46.048" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:46.048" starttime="20190109 12:32:46.020"></status>
+<msg timestamp="20190109 12:50:07.789" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:07.789" starttime="20190109 12:50:07.769"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -620,29 +620,29 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:46.048" starttime="20190109 12:32:46.048"></status>
+<status status="PASS" endtime="20190109 12:50:07.789" starttime="20190109 12:50:07.789"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:46.048" starttime="20190109 12:32:46.048"></status>
+<status status="PASS" endtime="20190109 12:50:07.789" starttime="20190109 12:50:07.789"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:46.048" starttime="20190109 12:32:46.019"></status>
+<status status="PASS" endtime="20190109 12:50:07.789" starttime="20190109 12:50:07.769"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:46.048" starttime="20190109 12:32:44.965"></status>
+<status status="PASS" endtime="20190109 12:50:07.789" starttime="20190109 12:50:06.737"></status>
 </kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-12&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-12&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:46.115" starttime="20190109 12:32:46.048"></status>
+<status status="PASS" endtime="20190109 12:50:07.864" starttime="20190109 12:50:07.789"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:47.116" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:47.116" starttime="20190109 12:32:46.115"></status>
+<msg timestamp="20190109 12:50:08.871" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:08.871" starttime="20190109 12:50:07.864"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -659,67 +659,11 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:47.136" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:47.136" starttime="20190109 12:32:47.119"></status>
+<msg timestamp="20190109 12:50:08.894" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:08.894" starttime="20190109 12:50:08.871"></status>
 </kw>
-<msg timestamp="20190109 12:32:47.136" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:47.136" starttime="20190109 12:32:47.118"></status>
-</kw>
-<kw name="Run Keyword If" library="BuiltIn">
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<arguments>
-<arg>${popup} == True</arg>
-<arg>No operation</arg>
-<arg>ELSE</arg>
-<arg>Click element</arg>
-<arg>${NEWSLETTER_POPUP_CLOSE}</arg>
-</arguments>
-<kw name="No Operation" library="BuiltIn">
-<doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:47.136" starttime="20190109 12:32:47.136"></status>
-</kw>
-<status status="PASS" endtime="20190109 12:32:47.136" starttime="20190109 12:32:47.136"></status>
-</kw>
-<status status="PASS" endtime="20190109 12:32:47.136" starttime="20190109 12:32:47.117"></status>
-</kw>
-<status status="PASS" endtime="20190109 12:32:47.136" starttime="20190109 12:32:46.048"></status>
-</kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-13&quot;)&gt;">
-<kw name="Scroll Element Into View" library="SeleniumLibrary">
-<doc>Scrolls an element identified by ``locator`` into view.</doc>
-<arguments>
-<arg>${row}</arg>
-</arguments>
-<status status="PASS" endtime="20190109 12:32:47.199" starttime="20190109 12:32:47.136"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>1</arg>
-</arguments>
-<msg timestamp="20190109 12:32:48.201" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:48.203" starttime="20190109 12:32:47.199"></status>
-</kw>
-<kw name="Close popup if appears" library="common_data">
-<kw name="Run Keyword And Return Status" library="BuiltIn">
-<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
-<arguments>
-<arg>Element should not be visible</arg>
-<arg>${NEWSLETTER_POPUP}</arg>
-</arguments>
-<assign>
-<var>${popup}</var>
-</assign>
-<kw name="Element Should Not Be Visible" library="SeleniumLibrary">
-<doc>Verifies that the element identified by ``locator`` is NOT visible.</doc>
-<arguments>
-<arg>${NEWSLETTER_POPUP}</arg>
-</arguments>
-<msg timestamp="20190109 12:32:48.225" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:48.225" starttime="20190109 12:32:48.205"></status>
-</kw>
-<msg timestamp="20190109 12:32:48.225" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:48.225" starttime="20190109 12:32:48.204"></status>
+<msg timestamp="20190109 12:50:08.894" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:08.894" starttime="20190109 12:50:08.871"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -732,29 +676,29 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:48.225" starttime="20190109 12:32:48.225"></status>
+<status status="PASS" endtime="20190109 12:50:08.894" starttime="20190109 12:50:08.894"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:48.225" starttime="20190109 12:32:48.225"></status>
+<status status="PASS" endtime="20190109 12:50:08.894" starttime="20190109 12:50:08.894"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:48.225" starttime="20190109 12:32:48.203"></status>
+<status status="PASS" endtime="20190109 12:50:08.894" starttime="20190109 12:50:08.871"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:48.225" starttime="20190109 12:32:47.136"></status>
+<status status="PASS" endtime="20190109 12:50:08.894" starttime="20190109 12:50:07.789"></status>
 </kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-14&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-13&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:48.319" starttime="20190109 12:32:48.225"></status>
+<status status="PASS" endtime="20190109 12:50:08.933" starttime="20190109 12:50:08.894"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:49.326" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:49.326" starttime="20190109 12:32:48.319"></status>
+<msg timestamp="20190109 12:50:09.934" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:09.934" starttime="20190109 12:50:08.933"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -773,14 +717,14 @@
 </arguments>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20190109 12:32:49.743" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20190109 12:32:49.743" starttime="20190109 12:32:49.395"></status>
+<msg timestamp="20190109 12:50:10.374" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190109 12:50:10.374" starttime="20190109 12:50:09.966"></status>
 </kw>
-<msg timestamp="20190109 12:32:49.743" level="FAIL">The element 'css=.leadinModal-content .leadin-preview-wrapper' should not be visible, but it is.</msg>
-<status status="FAIL" endtime="20190109 12:32:49.743" starttime="20190109 12:32:49.326"></status>
+<msg timestamp="20190109 12:50:10.376" level="FAIL">The element 'css=.leadinModal-content .leadin-preview-wrapper' should not be visible, but it is.</msg>
+<status status="FAIL" endtime="20190109 12:50:10.376" starttime="20190109 12:50:09.935"></status>
 </kw>
-<msg timestamp="20190109 12:32:49.743" level="INFO">${popup} = False</msg>
-<status status="PASS" endtime="20190109 12:32:49.743" starttime="20190109 12:32:49.326"></status>
+<msg timestamp="20190109 12:50:10.376" level="INFO">${popup} = False</msg>
+<status status="PASS" endtime="20190109 12:50:10.376" starttime="20190109 12:50:09.934"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -796,30 +740,30 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP_CLOSE}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:49.743" level="INFO">Clicking element 'css=.leadinModal-content .leadinModal-close'.</msg>
-<status status="PASS" endtime="20190109 12:32:49.810" starttime="20190109 12:32:49.743"></status>
+<msg timestamp="20190109 12:50:10.377" level="INFO">Clicking element 'css=.leadinModal-content .leadinModal-close'.</msg>
+<status status="PASS" endtime="20190109 12:50:10.477" starttime="20190109 12:50:10.377"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:49.810" starttime="20190109 12:32:49.743"></status>
+<status status="PASS" endtime="20190109 12:50:10.477" starttime="20190109 12:50:10.376"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:49.811" starttime="20190109 12:32:49.326"></status>
+<status status="PASS" endtime="20190109 12:50:10.477" starttime="20190109 12:50:09.934"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:49.811" starttime="20190109 12:32:48.225"></status>
+<status status="PASS" endtime="20190109 12:50:10.478" starttime="20190109 12:50:08.894"></status>
 </kw>
-<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a794441b01dc4635826a1b833c25766&quot;, element=&quot;0.9808531291149294-15&quot;)&gt;">
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-14&quot;)&gt;">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls an element identified by ``locator`` into view.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:49.848" starttime="20190109 12:32:49.811"></status>
+<status status="PASS" endtime="20190109 12:50:10.517" starttime="20190109 12:50:10.478"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1</arg>
 </arguments>
-<msg timestamp="20190109 12:32:50.849" level="INFO">Slept 1 second</msg>
-<status status="PASS" endtime="20190109 12:32:50.850" starttime="20190109 12:32:49.849"></status>
+<msg timestamp="20190109 12:50:11.518" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:11.518" starttime="20190109 12:50:10.517"></status>
 </kw>
 <kw name="Close popup if appears" library="common_data">
 <kw name="Run Keyword And Return Status" library="BuiltIn">
@@ -836,11 +780,11 @@
 <arguments>
 <arg>${NEWSLETTER_POPUP}</arg>
 </arguments>
-<msg timestamp="20190109 12:32:50.903" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
-<status status="PASS" endtime="20190109 12:32:50.903" starttime="20190109 12:32:50.855"></status>
+<msg timestamp="20190109 12:50:11.572" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:11.572" starttime="20190109 12:50:11.522"></status>
 </kw>
-<msg timestamp="20190109 12:32:50.903" level="INFO">${popup} = True</msg>
-<status status="PASS" endtime="20190109 12:32:50.903" starttime="20190109 12:32:50.853"></status>
+<msg timestamp="20190109 12:50:11.572" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:11.572" starttime="20190109 12:50:11.520"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -853,28 +797,84 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="PASS" endtime="20190109 12:32:50.906" starttime="20190109 12:32:50.906"></status>
+<status status="PASS" endtime="20190109 12:50:11.572" starttime="20190109 12:50:11.572"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:50.906" starttime="20190109 12:32:50.904"></status>
+<status status="PASS" endtime="20190109 12:50:11.572" starttime="20190109 12:50:11.572"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:50.907" starttime="20190109 12:32:50.851"></status>
+<status status="PASS" endtime="20190109 12:50:11.572" starttime="20190109 12:50:11.519"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:50.907" starttime="20190109 12:32:49.811"></status>
+<status status="PASS" endtime="20190109 12:50:11.572" starttime="20190109 12:50:10.478"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:50.907" starttime="20190109 12:32:39.559"></status>
+<kw type="foritem" name="${row} = &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b255e011df021e767537d870849ffdbe&quot;, element=&quot;0.6289693251524968-15&quot;)&gt;">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls an element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<status status="PASS" endtime="20190109 12:50:11.627" starttime="20190109 12:50:11.572"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:50.907" starttime="20190109 12:32:37.544"></status>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20190109 12:50:12.642" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190109 12:50:12.642" starttime="20190109 12:50:11.628"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:50.907" starttime="20190109 12:32:37.543"></status>
+<kw name="Close popup if appears" library="common_data">
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Element should not be visible</arg>
+<arg>${NEWSLETTER_POPUP}</arg>
+</arguments>
+<assign>
+<var>${popup}</var>
+</assign>
+<kw name="Element Should Not Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by ``locator`` is NOT visible.</doc>
+<arguments>
+<arg>${NEWSLETTER_POPUP}</arg>
+</arguments>
+<msg timestamp="20190109 12:50:12.657" level="INFO">Element 'css=.leadinModal-content .leadin-preview-wrapper' did not exist.</msg>
+<status status="PASS" endtime="20190109 12:50:12.657" starttime="20190109 12:50:12.642"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:50.907" starttime="20190109 12:32:37.542"></status>
+<msg timestamp="20190109 12:50:12.657" level="INFO">${popup} = True</msg>
+<status status="PASS" endtime="20190109 12:50:12.657" starttime="20190109 12:50:12.642"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:50.909" critical="yes" starttime="20190109 12:32:37.539"></status>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${popup} == True</arg>
+<arg>No operation</arg>
+<arg>ELSE</arg>
+<arg>Click element</arg>
+<arg>${NEWSLETTER_POPUP_CLOSE}</arg>
+</arguments>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" endtime="20190109 12:50:12.673" starttime="20190109 12:50:12.673"></status>
+</kw>
+<status status="PASS" endtime="20190109 12:50:12.673" starttime="20190109 12:50:12.657"></status>
+</kw>
+<status status="PASS" endtime="20190109 12:50:12.673" starttime="20190109 12:50:12.642"></status>
+</kw>
+<status status="PASS" endtime="20190109 12:50:12.673" starttime="20190109 12:50:11.572"></status>
+</kw>
+<status status="PASS" endtime="20190109 12:50:12.673" starttime="20190109 12:50:01.309"></status>
+</kw>
+<status status="PASS" endtime="20190109 12:50:12.673" starttime="20190109 12:49:59.279"></status>
+</kw>
+<status status="PASS" endtime="20190109 12:50:12.673" starttime="20190109 12:49:59.278"></status>
+</kw>
+<status status="PASS" endtime="20190109 12:50:12.673" starttime="20190109 12:49:59.277"></status>
+</kw>
+<status status="PASS" endtime="20190109 12:50:12.673" critical="yes" starttime="20190109 12:49:59.275"></status>
 </test>
 <kw type="teardown" name="Close browser" library="common_data">
 <kw name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" endtime="20190109 12:32:53.205" starttime="20190109 12:32:50.914"></status>
+<status status="PASS" endtime="20190109 12:50:14.960" starttime="20190109 12:50:12.673"></status>
 </kw>
 <kw name="Run Keyword If All Tests Passed" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if all tests passed.</doc>
@@ -889,8 +889,8 @@
 <arg>web_competition/competitionresults.js</arg>
 <arg>__</arg>
 </arguments>
-<msg timestamp="20190109 12:32:53.221" html="yes" level="INFO">Appended to file '&lt;a href="file://C:\hiq_quiz\web_competition\competitionresults.js"&gt;C:\hiq_quiz\web_competition\competitionresults.js&lt;/a&gt;'.</msg>
-<status status="PASS" endtime="20190109 12:32:53.221" starttime="20190109 12:32:53.205"></status>
+<msg timestamp="20190109 12:50:14.976" html="yes" level="INFO">Appended to file '&lt;a href="file://C:\hiq_quiz\web_competition\competitionresults.js"&gt;C:\hiq_quiz\web_competition\competitionresults.js&lt;/a&gt;'.</msg>
+<status status="PASS" endtime="20190109 12:50:14.976" starttime="20190109 12:50:14.960"></status>
 </kw>
 <kw name="Append To File" library="OperatingSystem">
 <doc>Appends the given content to the specified file.</doc>
@@ -898,8 +898,8 @@
 <arg>web_competition/competitionresults.js</arg>
 <arg>'${PLAYER}'</arg>
 </arguments>
-<msg timestamp="20190109 12:32:53.221" html="yes" level="INFO">Appended to file '&lt;a href="file://C:\hiq_quiz\web_competition\competitionresults.js"&gt;C:\hiq_quiz\web_competition\competitionresults.js&lt;/a&gt;'.</msg>
-<status status="PASS" endtime="20190109 12:32:53.221" starttime="20190109 12:32:53.221"></status>
+<msg timestamp="20190109 12:50:14.991" html="yes" level="INFO">Appended to file '&lt;a href="file://C:\hiq_quiz\web_competition\competitionresults.js"&gt;C:\hiq_quiz\web_competition\competitionresults.js&lt;/a&gt;'.</msg>
+<status status="PASS" endtime="20190109 12:50:14.991" starttime="20190109 12:50:14.976"></status>
 </kw>
 <kw name="Append To File" library="OperatingSystem">
 <doc>Appends the given content to the specified file.</doc>
@@ -907,8 +907,8 @@
 <arg>web_competition/competitionresults.js</arg>
 <arg>'${TOTAL}'</arg>
 </arguments>
-<msg timestamp="20190109 12:32:53.236" html="yes" level="INFO">Appended to file '&lt;a href="file://C:\hiq_quiz\web_competition\competitionresults.js"&gt;C:\hiq_quiz\web_competition\competitionresults.js&lt;/a&gt;'.</msg>
-<status status="PASS" endtime="20190109 12:32:53.236" starttime="20190109 12:32:53.221"></status>
+<msg timestamp="20190109 12:50:15.007" html="yes" level="INFO">Appended to file '&lt;a href="file://C:\hiq_quiz\web_competition\competitionresults.js"&gt;C:\hiq_quiz\web_competition\competitionresults.js&lt;/a&gt;'.</msg>
+<status status="PASS" endtime="20190109 12:50:15.007" starttime="20190109 12:50:14.991"></status>
 </kw>
 <kw name="Copy File" library="OperatingSystem">
 <doc>Copies the source file into the destination.</doc>
@@ -916,8 +916,8 @@
 <arg>web_competition/competitionresults.js</arg>
 <arg>web_competition/scores/competitionresults.js</arg>
 </arguments>
-<msg timestamp="20190109 12:32:53.252" html="yes" level="INFO">Copied file from '&lt;a href="file://C:\hiq_quiz\web_competition\competitionresults.js"&gt;C:\hiq_quiz\web_competition\competitionresults.js&lt;/a&gt;' to '&lt;a href="file://C:\hiq_quiz\web_competition\scores\competitionresults.js"&gt;C:\hiq_quiz\web_competition\scores\competitionresults.js&lt;/a&gt;'.</msg>
-<status status="PASS" endtime="20190109 12:32:53.252" starttime="20190109 12:32:53.236"></status>
+<msg timestamp="20190109 12:50:15.007" html="yes" level="INFO">Copied file from '&lt;a href="file://C:\hiq_quiz\web_competition\competitionresults.js"&gt;C:\hiq_quiz\web_competition\competitionresults.js&lt;/a&gt;' to '&lt;a href="file://C:\hiq_quiz\web_competition\scores\competitionresults.js"&gt;C:\hiq_quiz\web_competition\scores\competitionresults.js&lt;/a&gt;'.</msg>
+<status status="PASS" endtime="20190109 12:50:15.007" starttime="20190109 12:50:15.007"></status>
 </kw>
 <kw name="Append To File" library="OperatingSystem">
 <doc>Appends the given content to the specified file.</doc>
@@ -925,116 +925,116 @@
 <arg>web_competition/scores/competitionresults.js</arg>
 <arg>"</arg>
 </arguments>
-<msg timestamp="20190109 12:32:53.252" html="yes" level="INFO">Appended to file '&lt;a href="file://C:\hiq_quiz\web_competition\scores\competitionresults.js"&gt;C:\hiq_quiz\web_competition\scores\competitionresults.js&lt;/a&gt;'.</msg>
-<status status="PASS" endtime="20190109 12:32:53.252" starttime="20190109 12:32:53.252"></status>
+<msg timestamp="20190109 12:50:15.023" html="yes" level="INFO">Appended to file '&lt;a href="file://C:\hiq_quiz\web_competition\scores\competitionresults.js"&gt;C:\hiq_quiz\web_competition\scores\competitionresults.js&lt;/a&gt;'.</msg>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.007"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:53.252" starttime="20190109 12:32:53.205"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>..</arg>
-</arguments>
-<status status="PASS" endtime="20190109 12:32:53.252" starttime="20190109 12:32:53.252"></status>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:14.960"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>..</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.252" starttime="20190109 12:32:53.252"></status>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.023"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>..</arg>
+</arguments>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.023"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>----------------YOU DID IT ${PLAYER} !!!!---------------</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.252"></status>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.023"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>----------------!!!CONGRATULATIONS!!!-------------------</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.268"></status>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.023"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>..</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.268"></status>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.023"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>..</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.268"></status>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.023"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>................You answered all questions correctly in ${TOTAL} seconds !!</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.268"></status>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.023"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>..</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.268"></status>
+<status status="PASS" endtime="20190109 12:50:15.023" starttime="20190109 12:50:15.023"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>................This quiz was coded using Robot Framework and Python</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.268"></status>
+<status status="PASS" endtime="20190109 12:50:15.038" starttime="20190109 12:50:15.038"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>..</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.268"></status>
+<status status="PASS" endtime="20190109 12:50:15.038" starttime="20190109 12:50:15.038"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>..</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:53.268" starttime="20190109 12:32:53.268"></status>
+<status status="PASS" endtime="20190109 12:50:15.038" starttime="20190109 12:50:15.038"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3</arg>
 </arguments>
-<msg timestamp="20190109 12:32:56.275" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20190109 12:32:56.275" starttime="20190109 12:32:53.268"></status>
+<msg timestamp="20190109 12:50:18.044" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190109 12:50:18.044" starttime="20190109 12:50:15.038"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:56.275" starttime="20190109 12:32:53.205"></status>
+<status status="PASS" endtime="20190109 12:50:18.044" starttime="20190109 12:50:14.960"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:56.275" starttime="20190109 12:32:53.205"></status>
+<status status="PASS" endtime="20190109 12:50:18.044" starttime="20190109 12:50:14.960"></status>
 </kw>
 <kw name="Run Keyword If Any Tests Failed" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if one or more tests failed.</doc>
 <arguments>
 <arg>Better luck next time</arg>
 </arguments>
-<status status="PASS" endtime="20190109 12:32:56.275" starttime="20190109 12:32:56.275"></status>
+<status status="PASS" endtime="20190109 12:50:18.044" starttime="20190109 12:50:18.044"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:56.275" starttime="20190109 12:32:50.913"></status>
+<status status="PASS" endtime="20190109 12:50:18.044" starttime="20190109 12:50:12.673"></status>
 </kw>
-<status status="PASS" endtime="20190109 12:32:56.275" starttime="20190109 12:32:28.966"></status>
+<status status="PASS" endtime="20190109 12:50:18.044" starttime="20190109 12:49:45.806"></status>
 </suite>
-<status status="PASS" endtime="20190109 12:32:56.290" starttime="20190109 12:32:28.966"></status>
+<status status="PASS" endtime="20190109 12:50:18.059" starttime="20190109 12:49:45.791"></status>
 </suite>
-<status status="PASS" endtime="20190109 12:32:56.306" starttime="20190109 12:32:28.951"></status>
+<status status="PASS" endtime="20190109 12:50:18.059" starttime="20190109 12:49:45.791"></status>
 </suite>
-<status status="PASS" endtime="20190109 12:32:56.321" starttime="20190109 12:32:28.904"></status>
+<status status="PASS" endtime="20190109 12:50:18.059" starttime="20190109 12:49:45.635"></status>
 </suite>
 <statistics>
 <total>
