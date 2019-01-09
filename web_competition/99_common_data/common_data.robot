@@ -6,7 +6,7 @@ Library   OperatingSystem
 ${WINDOW_WIDTH}                       1918
 ${WINDOW_HEIGHT}                      870
 ${CHROMEBROWSER}                      chrome
-${BLANK_PAGE}                         about:bla nk
+${BLANK_PAGE}                         about:blank
 
 ${HIQ_LOGO}                           css=.hiqfi-navigation__logo svg
 ${COOKIE_OK_BUTTON}                   css=#accept-cookie

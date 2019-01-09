@@ -1,3 +1,15 @@
+function cleanUtfChars(str) {
+  var cleaned_str = str;
+  cleaned_str = cleaned_str.replace(/\x94/g,'ö');
+  cleaned_str = cleaned_str.replace(/\x84/g,'ä');
+  cleaned_str = cleaned_str.replace(/\x86/g,'å');
+  cleaned_str = cleaned_str.replace(/\x99/g,'Ö');
+  cleaned_str = cleaned_str.replace(/\x8e/g,'Ä');
+  cleaned_str = cleaned_str.replace(/\x8f/g,'Å');
+  return cleaned_str;
+}
+
+hscore = cleanUtfChars(hscore);
 
 var stepX = hscore.split("''");
 var stepY = stepX.toString();
