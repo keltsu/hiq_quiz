@@ -3,10 +3,10 @@ Library   SeleniumLibrary
 Library   OperatingSystem
 
 *** Variables ***
-${WINDOW_WIDTH}                       1540
+${WINDOW_WIDTH}                       1918
 ${WINDOW_HEIGHT}                      870
 ${CHROMEBROWSER}                      chrome
-${BLANK_PAGE}                         about:blank
+${BLANK_PAGE}                         about:bla nk
 
 ${HIQ_LOGO}                           css=.hiqfi-navigation__logo svg
 ${COOKIE_OK_BUTTON}                   css=#accept-cookie
@@ -63,7 +63,7 @@ User wants to enter competition
     Empty output directory if needed
     Open Browser                      ${BLANK_PAGE}  ${CHROMEBROWSER}
     Set Window Size                   ${WINDOW_WIDTH}  ${WINDOW_HEIGHT}
-    Set Window Position               180  5
+    Set Window Position               1  5
 
 Empty output directory if needed
     Run keyword if  '${OUTPUT_DIR_EMPTY}' == 'FALSE'  Remove output data
