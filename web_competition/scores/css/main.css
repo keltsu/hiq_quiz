@@ -4,6 +4,8 @@
   background-color: #100;
   color: #eee;
   font-family: regular,arial;
+  font-size: 180%;
+  height: 20em; overflow: auto;
 }
 .highscores .item {
   display: flex;
@@ -19,6 +21,6 @@
 }
 .highscores .score {
   font-weight: bold;
-  font-size: 180%;
+  font-size: 100%;
   color: #bd6910;
 }
