@@ -206,7 +206,7 @@ def task4():
         print ("")
     print ("  3 -       ---Scroll effect 3--- ")
     print ("    @{all_rows} =  Get Webelements  ${NUMBER_OF_ROWS} ")
-    print ("       FOR  ${row}  IN  @{all_rows} ")
+    print ("       FO  ${row}  IN  @{all_rows} ")
     print ("       \  Scroll element into view  ${row} ")
     print ("       \  Sleep  1 ")
     print ("       \  Close popup if appears ")

@@ -36,7 +36,7 @@ A fancy webpage scroll effect 2
 A fancy webpage scroll effect 3
     Sleep  2
     @{all_rows} =  Get Webelements  ${NUMBER_OF_ROWS}
-       FOR  ${row}  IN  @{all_rows}
+       FO  ${row}  IN  @{all_rows}
        \  Scroll element into view  ${row}
        \  Sleep  1
        \  Close popup if appears

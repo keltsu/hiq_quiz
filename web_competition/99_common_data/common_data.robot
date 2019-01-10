@@ -9,6 +9,7 @@ ${CHROMEBROWSER}                      chrome
 ${BLANK_PAGE}                         about:blank
 
 ${HIQ_LOGO}                           css=.hiqfi-navigation__logo svg
+${HIQ_NAME}                           HiQ Finland Oy
 ${COOKIE_OK_BUTTON}                   css=#accept-cookie
 ${NEWSLETTER_POPUP}                   css=.leadinModal-content .leadin-preview-wrapper
 ${NEWSLETTER_POPUP_CLOSE}             css=.leadinModal-content .leadinModal-close
@@ -27,6 +28,7 @@ user goes to HIQ frontpage
     [arguments]  ${direction}
     Run keyword if  '${direction}' == '${direction}'  Go to  ${URL_\'${direction}'}
     Wait until element is visible  ${HIQ_LOGO}
+    Page should contain  ${HIQ_NAME}
     Accept cookies
 
 user opens avoimet tyopaikat page
@@ -38,6 +40,7 @@ user selects test automation developer position
     [Arguments]  ${selected_career}
     Run keyword if  '${selected_career}' == '${selected_career}'  Hover on element and click  ${AUTOMATION_DEVELOPER_CAREER_\'${selected_career}'}
     Wait until element is visible  ${POSITION_HEADER}
+    Page should contain  HiQ etsii motivoituneeseen ja ammattitaitoiseen joukkoonsa kokenutta Test Automation Developeria, jolla on kykyä testausprosessin laaja-alaiseen hahmottamiseen ja itsenäiseen päätöksentekoon.
 
 user can see information on automation developer career in HiQ
     [Arguments]  ${selected_scroll}
