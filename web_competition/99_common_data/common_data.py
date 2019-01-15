@@ -72,7 +72,7 @@ loader_demo ("""         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
          MMMMMMN..MMMMM/`oMMh:```-oMMMs`/-.`-yMMMd/.``.+NMMMm+.``.:yMMMMs-```:yMMM..MMMN..MMMMMMMh/.``./s-/MMy-``-/`+MMy`oMM-`.....sMMMMMMMM/``.....NMh``....:sNMMMMMMMMM
          MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM """)
 print ("")
-print (Fore.BLUE + '         (C) HiQ/Keltsu 2019                                        ----- HIQ RoboCon Quiz 2D  (v. 0.9) -----                                   http://www.hiqfinland.fi/')
+print (Fore.BLUE + '         (C) HiQ/Keltsu 2019                                        ----- HIQ RoboCon Quiz 2D  (v. 1.0) -----                                   http://www.hiqfinland.fi/')
 print (Style.RESET_ALL)
 
 
@@ -135,11 +135,11 @@ def task2():
     print ("")
     print (Style.RESET_ALL)
     print (Fore.WHITE + 'Question: ')
-    print (" Which of these is a possible correct way to write robot for a click event? ")
+    print (" Select a correct way to write robot for a click event? ")
     print ("")
     print ("")
     print (" 1 - Click element  css=.hiqfi-navigation__main ul li:nth-child(4) ")
-    print (" 2 - Click element  css:.hiqfi-navigation__main ul li:nth-child(4) ")
+    print (" 2 - Click element  css_.hiqfi-navigation__main ul li:nth-child(4) ")
     print (" 3 - Click element  css=.hiqfi-navigation__main ulli:nth--child(4) ")
     print (Style.RESET_ALL)
     print (" ---- ")

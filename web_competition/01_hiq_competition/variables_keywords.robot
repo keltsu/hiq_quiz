@@ -8,7 +8,7 @@ ${URL_'2'}                          htps://hiqfinland.fi/
 ${URL_'3'}                          https://hiqfinland.fi/
 
 ${POSITIONS_LINK_'1'}               css=.hiqfi-navigation__main ul li:nth-child(4)
-${POSITIONS_LINK_'2'}               css=.hiqfi-navigation__main ul li_nth-child(4)
+${POSITIONS_LINK_'2'}               css_.hiqfi-navigation__main ul li_nth-child(4)
 ${POSITIONS_LINK_'3'}               css=.hiqfi-navigation__main ulli:nth--child(4)
 
 ${AUTOMATION_DEVELOPER_CAREER_'1'}  ${AVAILABLE_JOBS_CONTAINER}  ${AVAILABLE_JOBS_SECTION}  div:nth-child()    ${POSITION_TITLE}
