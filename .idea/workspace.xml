@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcb9956e-802b-45d6-8e3f-708a3e0656d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/reports/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/reports/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/temp/reports/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/reports/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/reports/selenium-screenshot-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/temp/reports/selenium-screenshot-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_competition/01_hiq_competition/variables_keywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/web_competition/01_hiq_competition/variables_keywords.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_competition/99_common_data/common_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_competition/99_common_data/common_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_competition/competitionresults.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_competition/competitionresults.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_competition/scores/competitionresults.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_competition/scores/competitionresults.js" afterDir="false" />
     </list>
@@ -21,43 +14,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_competition/01_hiq_competition/quiz_questions.robot">
+        <entry file="file://$PROJECT_DIR$/web_competition/scores/competitionresults.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_competition/01_hiq_competition/variables_keywords.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.py">
+        <entry file="file://$PROJECT_DIR$/web_competition/competitionresults.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -127,8 +96,6 @@
         <option value="$PROJECT_DIR$/hiq_pipo/competitionresults.txt" />
         <option value="$PROJECT_DIR$/web_competition/scores/js/scoret.js" />
         <option value="$PROJECT_DIR$/web_competition/scores/css/main.css" />
-        <option value="$PROJECT_DIR$/web_competition/competitionresults.js" />
-        <option value="$PROJECT_DIR$/web_competition/scores/competitionresults.js" />
         <option value="$PROJECT_DIR$/web_competition/scores/js/score-logic.js" />
         <option value="$PROJECT_DIR$/web_competition/scores/highscores.html" />
         <option value="$PROJECT_DIR$/web_competition/01_hiq_competition/quiz_questions.robot" />
@@ -136,6 +103,8 @@
         <option value="$PROJECT_DIR$/temp/reports/output.xml" />
         <option value="$PROJECT_DIR$/web_competition/01_hiq_competition/variables_keywords.robot" />
         <option value="$PROJECT_DIR$/web_competition/99_common_data/common_data.py" />
+        <option value="$PROJECT_DIR$/web_competition/scores/competitionresults.js" />
+        <option value="$PROJECT_DIR$/web_competition/competitionresults.js" />
       </list>
     </option>
   </component>
@@ -188,33 +157,7 @@
               <item name="hiq_quiz" type="b2602c69:ProjectViewProjectNode" />
               <item name="hiq_quiz" type="462c0819:PsiDirectoryNode" />
               <item name="web_competition" type="462c0819:PsiDirectoryNode" />
-              <item name="01_hiq_competition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hiq_quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hiq_quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="web_competition" type="462c0819:PsiDirectoryNode" />
-              <item name="99_common_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hiq_quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hiq_quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="web_competition" type="462c0819:PsiDirectoryNode" />
               <item name="scores" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hiq_quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hiq_quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="web_competition" type="462c0819:PsiDirectoryNode" />
-              <item name="scores" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hiq_quiz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hiq_quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="web_competition" type="462c0819:PsiDirectoryNode" />
-              <item name="scores" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,10 +211,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09325606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22444679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,7 +227,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32946634" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38836968" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38836968" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -372,20 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_competition/competitionresults.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_competition/scores/competitionresults.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_competition/scores/js/scoret.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -397,23 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_competition/scores/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_competition/scores/highscores.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,20 +354,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_competition/01_hiq_competition/quiz_questions.robot">
+    <entry file="file://$PROJECT_DIR$/web_competition/scores/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#152#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.robot">
+    <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="1292">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,13 +378,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.py">
+    <entry file="file://$PROJECT_DIR$/web_competition/99_common_data/common_data.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_competition/01_hiq_competition/quiz_questions.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#152#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_competition/scores/highscores.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_competition/scores/competitionresults.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_competition/competitionresults.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
