@@ -72,7 +72,7 @@ loader_demo ("""         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
          MMMMMMN..MMMMM/`oMMh:```-oMMMs`/-.`-yMMMd/.``.+NMMMm+.``.:yMMMMs-```:yMMM..MMMN..MMMMMMMh/.``./s-/MMy-``-/`+MMy`oMM-`.....sMMMMMMMM/``.....NMh``....:sNMMMMMMMMM
          MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM """)
 print ("")
-print (Fore.BLUE + '         (C) HiQ/Keltsu 2019                                        ----- HIQ RoboCon Quiz 2D  (v. 1.0) -----                                   http://www.hiqfinland.fi/')
+print (Fore.BLUE + '         (C) HiQ/Keltsu 2019                                        ----- HIQ RoboCon Quiz 2D  (v. 1.1) -----                                   http://www.hiqfinland.fi/')
 print (Style.RESET_ALL)
 
 
@@ -161,7 +161,7 @@ def task3():
     print ("")
     print ("")
     print (
-        " 1 - Click element  ${AVAILABLE_JOBS_CONTAINER}  ${AUTOMATION_DEVELOPER_CAREER_'1'}  ${AVAILABLE_JOBS_CONTAINER}  ${AVAILABLE_JOBS_SECTION}  div:nth-child()  ${POSITION_TITLE} ")
+        " 1 - Click element  ${AVAILABLE_JOBS_CONTAINER}  ${AUTOMATION_DEVELOPER_CAREER_'1'}  ${AVAILABLE_JOBS_CONTAINER}  ${AVAILABLE_JOBS_SECTION}  xiv:nth-child(X)  ${POSITION_TITLE} ")
     print (
         " 2 - Click element  ${AVAILABLE_JOBS_CONTAINER}  ${AUTOMATION_DEVELOPER_CAREER_'2'}  ${AVAILABLE_JOBS_CONTAINER}  ${AVAILABLE_JOBS_SECTION}  div:nth-child(8)  ${POSITION_TITLE} ")
     print (
@@ -185,6 +185,8 @@ def task4():
     print (
         " Let's use robot framework for a fancy web page scrolling. Which one of the given FOR loops can actually do the scroll? ")
     print ("")
+    print ("")
+    print (" ---SUPER !!---  A.I wants to provide a hint for this problem: Wrong selections are missing characters. Look carefully!")
     for i in range(3):
         print ("")
     print (Fore.WHITE + 'Question: ')
@@ -197,8 +199,8 @@ def task4():
     for i in range(3):
         print ("")
     print ("  2 -       ---Scroll effect 2--- ")
-    print ("    @{all_rows} =  Get Webelement  ${NUMBER_OF_ROWS} ")
-    print ("       :FOR  ${row}  IN  @{all_rows} ")
+    print ("    @{all_rows} =  Get Webelements  {NUMBER_OF_ROWS} ")
+    print ("       :FOR  ${row}  IN  {all_rows} ")
     print ("       \  Scroll element into view  ${row} ")
     print ("       \  Sleep  1 ")
     print ("       \  Close popup if appears ")
