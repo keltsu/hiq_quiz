@@ -1,1 +1,1 @@
-var hscore = "__'KLZ-U''61.84'__'I am the Black wizards''350.67'"
+var hscore = "__'KLZ-U''61.84'__'I am the Black wizards''350.67'__'Rauli''21.21'__'Jonne''145.5'__'J''80.51'__'AriI''100.72'__'dave''139.47'__'miku''196.33'__'suman''85.65'__'Shahida''21.08'__'marcin''124.01'__'markus''42.2'__'Ismo''129.19'__'andrey''169.77'__'keltsu''4.61'__'keltsu''6.33'__'testi_etta_toimiikok\x94''4.53'__'testi65443''5.54'__'12345''5.76'__'6665''5.41'__'4343434''8.75'__'piste js''8.06'__'piste sh''5.08'__'piste txt''5.14'__'piste py''4.76'"
